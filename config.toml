@@ -26,7 +26,7 @@ publishDir = "docs" # For GitHub Pages
   description = "A simple and lightweight translator that allows to translate and speak text using Google, Yandex and Bing translate API."
 
   # Default image for social sharing and search engines.
-  sharing_image = "screenshots/main.png"
+  sharing_image = "logo.svg"
 
   # Disable dates.
   date_format = ""
