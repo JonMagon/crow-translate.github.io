@@ -84,6 +84,8 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If you do not pass startup arguments to the program, the GUI starts.&lt;/p&gt;
 </description>
     </item>
     

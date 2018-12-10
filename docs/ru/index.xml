@@ -172,6 +172,8 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;Примечание:&lt;/strong&gt; Если не передать программе аргументы запуска, то запустится графический интерфейс.&lt;/p&gt;
 </description>
     </item>
     
