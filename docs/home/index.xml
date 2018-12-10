@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Crow Translate</title>
+    <link>https://crow-translate.github.io/home/</link>
+    <description>Recent content in Homes on Crow Translate</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018-2019 Hennadii Chernyshchyk</copyright>
+    
+	<atom:link href="https://crow-translate.github.io/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Crow Translate</title>
+      <link>https://crow-translate.github.io/home/hero/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://crow-translate.github.io/home/hero/</guid>
+      <description>A simple and lightweight translator that allows to translate and speak text using Google, Yandex and Bing translate API.
+Latest release</description>
+    </item>
+    
+    <item>
+      <title>Feautures</title>
+      <link>https://crow-translate.github.io/home/features/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://crow-translate.github.io/home/features/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

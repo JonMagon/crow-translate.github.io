@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="https://crow-translate.github.io/commands/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://crow-translate.github.io/ru/commands/" hreflang="ru"/>
+    
+      <loc>https://crow-translate.github.io/commands/</loc>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="https://crow-translate.github.io/categories/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://crow-translate.github.io/ru/categories/" hreflang="ru"/>
+    
+      <loc>https://crow-translate.github.io/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="https://crow-translate.github.io/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://crow-translate.github.io/ru/" hreflang="ru"/>
+    
+      <loc>https://crow-translate.github.io/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="https://crow-translate.github.io/screenshots/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://crow-translate.github.io/ru/screenshots/" hreflang="ru"/>
+    
+      <loc>https://crow-translate.github.io/screenshots/</loc>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="https://crow-translate.github.io/shortcuts/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://crow-translate.github.io/ru/shortcuts/" hreflang="ru"/>
+    
+      <loc>https://crow-translate.github.io/shortcuts/</loc>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="https://crow-translate.github.io/tags/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://crow-translate.github.io/ru/tags/" hreflang="ru"/>
+    
+      <loc>https://crow-translate.github.io/tags/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+</urlset>

@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Crow Translate on Crow Translate</title>
+    <link>https://crow-translate.github.io/</link>
+    <description>Recent content in Crow Translate on Crow Translate</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018-2019 Hennadii Chernyshchyk</copyright>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>CLI commands</title>
+      <link>https://crow-translate.github.io/commands/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://crow-translate.github.io/commands/</guid>
+      <description>&lt;p&gt;The program also has a console interface.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Usage:&lt;/strong&gt; &lt;code&gt;crow [options] text&lt;/code&gt;&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Option&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;-h, --help&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Display help&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;-v, --version&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Display version information&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;-s, --source &amp;lt;code&amp;gt;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Specify the source language (by default, engine will try to determine the language on its own)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;-t, --translation &amp;lt;code&amp;gt;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Specify the translation language(s), joined by &#39;+&#39; (by default, the system language is used)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;-l, --locale &amp;lt;code&amp;gt;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Specify the translator language (by default, the system language is used)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;-e, --engine &amp;lt;engine&amp;gt;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Specify the translator engine (&#39;google&#39;, &#39;yandex&#39; or &#39;bing&#39;), Google is used by default&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;-p, --speak-translation&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Speak the translation&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;-u, --speak-source&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Speak the source&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;-a, --audio-only&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Print text only for playing when using &lt;code&gt;--speak-translation&lt;/code&gt; or &lt;code&gt;--speak-source&lt;/code&gt;.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;-f, --file&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Read source text from files. Arguments will be interpreted as file paths.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;-i, --stdin&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Add stdin data to source text.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Screenshots</title>
+      <link>https://crow-translate.github.io/screenshots/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://crow-translate.github.io/screenshots/</guid>
+      <description>
+
+&lt;h3 id=&#34;linux-plasma&#34;&gt;Linux Plasma&lt;/h3&gt;
+
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+
+  
+  
+  
+  
+
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;Main window&#34; href=&#34;https://crow-translate.github.io/img/screenshots/linux-plasma/main.png&#34;&gt;
+    &lt;img src=&#34;https://crow-translate.github.io/img/screenshots/linux-plasma/main.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+  
+&lt;/div&gt;
+
+&lt;p&gt;Main window&lt;/p&gt;
+
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+
+  
+  
+  
+  
+
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-2&#34; data-caption=&#34;Pop-up window&#34; href=&#34;https://crow-translate.github.io/img/screenshots/linux-plasma/popup.png&#34;&gt;
+    &lt;img src=&#34;https://crow-translate.github.io/img/screenshots/linux-plasma/popup.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+  
+&lt;/div&gt;
+
+&lt;p&gt;Pop-up window&lt;/p&gt;
+
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+
+  
+  
+  
+  
+
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-3&#34; data-caption=&#34;Sentense translation&#34; href=&#34;https://crow-translate.github.io/img/screenshots/linux-plasma/sentense.png&#34;&gt;
+    &lt;img src=&#34;https://crow-translate.github.io/img/screenshots/linux-plasma/sentense.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+  
+&lt;/div&gt;
+
+&lt;p&gt;Sentense translation&lt;/p&gt;
+
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+
+  
+  
+  
+  
+
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-4&#34; data-caption=&#34;Settings&#34; href=&#34;https://crow-translate.github.io/img/screenshots/linux-plasma/settings.png&#34;&gt;
+    &lt;img src=&#34;https://crow-translate.github.io/img/screenshots/linux-plasma/settings.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+  
+&lt;/div&gt;
+
+&lt;p&gt;Settings&lt;/p&gt;
+
+&lt;h3 id=&#34;windows-10&#34;&gt;Windows 10&lt;/h3&gt;
+
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+
+  
+  
+  
+  
+
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-5&#34; data-caption=&#34;Main window&#34; href=&#34;https://crow-translate.github.io/img/screenshots/windows/main.png&#34;&gt;
+    &lt;img src=&#34;https://crow-translate.github.io/img/screenshots/windows/main.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+  
+&lt;/div&gt;
+
+&lt;p&gt;Main window&lt;/p&gt;
+
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+
+  
+  
+  
+  
+
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-6&#34; data-caption=&#34;Pop-up window&#34; href=&#34;https://crow-translate.github.io/img/screenshots/windows/popup.png&#34;&gt;
+    &lt;img src=&#34;https://crow-translate.github.io/img/screenshots/windows/popup.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+  
+&lt;/div&gt;
+
+&lt;p&gt;Pop-up window&lt;/p&gt;
+
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+
+  
+  
+  
+  
+
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-7&#34; data-caption=&#34;Sentense translation&#34; href=&#34;https://crow-translate.github.io/img/screenshots/windows/sentense.png&#34;&gt;
+    &lt;img src=&#34;https://crow-translate.github.io/img/screenshots/windows/sentense.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+  
+&lt;/div&gt;
+
+&lt;p&gt;Sentense translation&lt;/p&gt;
+
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+
+  
+  
+  
+  
+
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-8&#34; data-caption=&#34;Settings&#34; href=&#34;https://crow-translate.github.io/img/screenshots/windows/settings.png&#34;&gt;
+    &lt;img src=&#34;https://crow-translate.github.io/img/screenshots/windows/settings.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+  
+&lt;/div&gt;
+
+&lt;p&gt;Settings&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Shortcuts</title>
+      <link>https://crow-translate.github.io/shortcuts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://crow-translate.github.io/shortcuts/</guid>
+      <description>
+
+&lt;p&gt;You can change them in the settings. Some key sequences may not be available due to OS limitations.&lt;/p&gt;
+
+&lt;h3 id=&#34;global&#34;&gt;Global&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Key&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;E&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Translate selected text&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;S&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Speak selected text&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;C&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Show main window&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&#34;in-main-window&#34;&gt;In main window&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Key&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Return&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Translate&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Q&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Close window&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;S&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Play / pause source text speaking&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;G&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Stop source text speaking&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Shift&lt;/kbd&gt; + &lt;kbd&gt;S&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Play / pause translation speaking&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Shift&lt;/kbd&gt; + &lt;kbd&gt;D&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Stop translation speaking&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Shift&lt;/kbd&gt; + &lt;kbd&gt;C&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Copy translation to clipboard&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
