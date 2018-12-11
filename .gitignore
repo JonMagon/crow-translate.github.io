@@ -1,5 +1,2 @@
 # Directory settings for Plasma
 *.directory
-
-# Cache
-resources/
