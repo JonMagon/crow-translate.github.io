@@ -70,7 +70,7 @@
 
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;-a, --audio-only&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;Print text only for playing when using &lt;code&gt;--speak-translation&lt;/code&gt; or &lt;code&gt;--speak-source&lt;/code&gt;.&lt;/td&gt;
+&lt;td&gt;Print text only for speaking when using &lt;code&gt;--speak-translation&lt;/code&gt; or &lt;code&gt;--speak-source&lt;/code&gt;.&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
