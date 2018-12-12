@@ -41,6 +41,16 @@
 &lt;/tr&gt;
 
 &lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;F&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Озвучить перевод выделенного текста&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;G&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Остановить озвучивание текста&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
 &lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;C&lt;/kbd&gt;&lt;/td&gt;
 &lt;td&gt;Показать главное окно&lt;/td&gt;
 &lt;/tr&gt;
@@ -158,17 +168,17 @@
 
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;-a, --audio-only&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;Печатать только текст для озвучивания при использовании  &lt;code&gt;--speak-translation&lt;/code&gt; or &lt;code&gt;--speak-source&lt;/code&gt;.&lt;/td&gt;
+&lt;td&gt;Печатать только текст для озвучивания при использовании  &lt;code&gt;--speak-translation&lt;/code&gt; or &lt;code&gt;--speak-source&lt;/code&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;-f, --file&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;Считать исходный текст из файлов. Аргументы будут интерпретироваться как пути к файлам.&lt;/td&gt;
+&lt;td&gt;Считать исходный текст из файлов. Аргументы будут интерпретироваться как пути к файлам&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;-i, --stdin&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;Добавить данные из stdin в исходный текст.&lt;/td&gt;
+&lt;td&gt;Добавить данные из stdin в исходный текст&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;

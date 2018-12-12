@@ -70,17 +70,17 @@
 
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;-a, --audio-only&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;Print text only for speaking when using &lt;code&gt;--speak-translation&lt;/code&gt; or &lt;code&gt;--speak-source&lt;/code&gt;.&lt;/td&gt;
+&lt;td&gt;Print text only for speaking when using &lt;code&gt;--speak-translation&lt;/code&gt; or &lt;code&gt;--speak-source&lt;/code&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;-f, --file&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;Read source text from files. Arguments will be interpreted as file paths.&lt;/td&gt;
+&lt;td&gt;Read source text from files. Arguments will be interpreted as file paths&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;-i, --stdin&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;Add stdin data to source text.&lt;/td&gt;
+&lt;td&gt;Add stdin data to source text&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -340,6 +340,16 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;S&lt;/kbd&gt;&lt;/td&gt;
 &lt;td&gt;Speak selected text&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;F&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Speak translation of selected text&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;G&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Stop speaking selected text&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
