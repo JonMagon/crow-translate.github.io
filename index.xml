@@ -39,6 +39,16 @@
 &lt;/tr&gt;
 
 &lt;tr&gt;
+&lt;td&gt;&lt;code&gt;-c, --codes&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Show all language codes&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;-a, --audio-only&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Print text only for speaking when using &lt;code&gt;--speak-translation&lt;/code&gt; or &lt;code&gt;--speak-source&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
 &lt;td&gt;&lt;code&gt;-s, --source &amp;lt;code&amp;gt;&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;Specify the source language (by default, engine will try to determine the language on its own)&lt;/td&gt;
 &lt;/tr&gt;
@@ -66,11 +76,6 @@
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;-u, --speak-source&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;Speak the source&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;code&gt;-a, --audio-only&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;Print text only for speaking when using &lt;code&gt;--speak-translation&lt;/code&gt; or &lt;code&gt;--speak-source&lt;/code&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;

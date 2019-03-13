@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Source Themes Academic 3.2.0">
-  <meta name="generator" content="Hugo 0.52" />
+  <meta name="generator" content="Hugo 0.54.0" />
   
 
   
@@ -17,7 +17,7 @@
   
   <meta name="description" content="The program also has a console interface.
 Usage: crow [options] text
-   Option Description     -h, --help Display help   -v, --version Display version information   -s, --source &lt;code&gt; Specify the source language (by default, engine will try to determine the language on its own)   -t, --translation &lt;code&gt; Specify the translation language(s), joined by &#39;&#43;&#39; (by default, the system language is used)   -l, --locale &lt;code&gt; Specify the translator language (by default, the system language is used)   -e, --engine &lt;engine&gt; Specify the translator engine (&#39;google&#39;, &#39;yandex&#39; or &#39;bing&#39;), Google is used by default   -p, --speak-translation Speak the translation   -u, --speak-source Speak the source   -a, --audio-only Print text only for speaking when using --speak-translation or --speak-source   -f, --file Read source text from files.">
+   Option Description     -h, --help Display help   -v, --version Display version information   -c, --codes Show all language codes   -a, --audio-only Print text only for speaking when using --speak-translation or --speak-source   -s, --source &lt;code&gt; Specify the source language (by default, engine will try to determine the language on its own)   -t, --translation &lt;code&gt; Specify the translation language(s), joined by &#39;&#43;&#39; (by default, the system language is used)   -l, --locale &lt;code&gt; Specify the translator language (by default, the system language is used)   -e, --engine &lt;engine&gt; Specify the translator engine (&#39;google&#39;, &#39;yandex&#39; or &#39;bing&#39;), Google is used by default   -p, --speak-translation Speak the translation   -u, --speak-source Speak the source   -f, --file Read source text from files.">
 
   
   <link rel="alternate" hreflang="ru" href="https://crow-translate.github.io/ru/commands/">
@@ -111,7 +111,7 @@ Usage: crow [options] text
   <meta property="og:title" content="CLI commands | Crow Translate">
   <meta property="og:description" content="The program also has a console interface.
 Usage: crow [options] text
-   Option Description     -h, --help Display help   -v, --version Display version information   -s, --source &lt;code&gt; Specify the source language (by default, engine will try to determine the language on its own)   -t, --translation &lt;code&gt; Specify the translation language(s), joined by &#39;&#43;&#39; (by default, the system language is used)   -l, --locale &lt;code&gt; Specify the translator language (by default, the system language is used)   -e, --engine &lt;engine&gt; Specify the translator engine (&#39;google&#39;, &#39;yandex&#39; or &#39;bing&#39;), Google is used by default   -p, --speak-translation Speak the translation   -u, --speak-source Speak the source   -a, --audio-only Print text only for speaking when using --speak-translation or --speak-source   -f, --file Read source text from files."><meta property="og:image" content="https://crow-translate.github.io/img/logo.svg">
+   Option Description     -h, --help Display help   -v, --version Display version information   -c, --codes Show all language codes   -a, --audio-only Print text only for speaking when using --speak-translation or --speak-source   -s, --source &lt;code&gt; Specify the source language (by default, engine will try to determine the language on its own)   -t, --translation &lt;code&gt; Specify the translation language(s), joined by &#39;&#43;&#39; (by default, the system language is used)   -l, --locale &lt;code&gt; Specify the translator language (by default, the system language is used)   -e, --engine &lt;engine&gt; Specify the translator engine (&#39;google&#39;, &#39;yandex&#39; or &#39;bing&#39;), Google is used by default   -p, --speak-translation Speak the translation   -u, --speak-source Speak the source   -f, --file Read source text from files."><meta property="og:image" content="https://crow-translate.github.io/img/logo.svg">
   <meta property="og:locale" content="en-us">
   
   
@@ -441,6 +441,16 @@ Usage: crow [options] text
 </tr>
 
 <tr>
+<td><code>-c, --codes</code></td>
+<td>Show all language codes</td>
+</tr>
+
+<tr>
+<td><code>-a, --audio-only</code></td>
+<td>Print text only for speaking when using <code>--speak-translation</code> or <code>--speak-source</code></td>
+</tr>
+
+<tr>
 <td><code>-s, --source &lt;code&gt;</code></td>
 <td>Specify the source language (by default, engine will try to determine the language on its own)</td>
 </tr>
@@ -468,11 +478,6 @@ Usage: crow [options] text
 <tr>
 <td><code>-u, --speak-source</code></td>
 <td>Speak the source</td>
-</tr>
-
-<tr>
-<td><code>-a, --audio-only</code></td>
-<td>Print text only for speaking when using <code>--speak-translation</code> or <code>--speak-source</code></td>
 </tr>
 
 <tr>
