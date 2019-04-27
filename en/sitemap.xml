@@ -1,67 +1,122 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-    
-    <url>
-    
-      <xhtml:link rel="alternate" href="https://crow-translate.github.io/commands/" hreflang="en"/>
-      <xhtml:link rel="alternate" href="https://crow-translate.github.io/ru/commands/" hreflang="ru"/>
-    
-      <loc>https://crow-translate.github.io/commands/</loc>
-    </url>
-    
+  <url>
+    <loc>/authors/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/authors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/authors/"
+                />
+  </url>
   
-    
-    <url>
-    
-      <xhtml:link rel="alternate" href="https://crow-translate.github.io/categories/" hreflang="en"/>
-      <xhtml:link rel="alternate" href="https://crow-translate.github.io/ru/categories/" hreflang="ru"/>
-    
-      <loc>https://crow-translate.github.io/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/commands/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/commands/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/commands/"
+                />
+  </url>
   
-    
-    <url>
-    
-      <xhtml:link rel="alternate" href="https://crow-translate.github.io/" hreflang="en"/>
-      <xhtml:link rel="alternate" href="https://crow-translate.github.io/ru/" hreflang="ru"/>
-    
-      <loc>https://crow-translate.github.io/</loc>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/categories/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/categories/"
+                />
+  </url>
   
-    
-    <url>
-    
-      <xhtml:link rel="alternate" href="https://crow-translate.github.io/screenshots/" hreflang="en"/>
-      <xhtml:link rel="alternate" href="https://crow-translate.github.io/ru/screenshots/" hreflang="ru"/>
-    
-      <loc>https://crow-translate.github.io/screenshots/</loc>
-    </url>
-    
+  <url>
+    <loc>/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/"
+                />
+  </url>
   
-    
-    <url>
-    
-      <xhtml:link rel="alternate" href="https://crow-translate.github.io/shortcuts/" hreflang="en"/>
-      <xhtml:link rel="alternate" href="https://crow-translate.github.io/ru/shortcuts/" hreflang="ru"/>
-    
-      <loc>https://crow-translate.github.io/shortcuts/</loc>
-    </url>
-    
+  <url>
+    <loc>/publication_types/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/publication_types/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/publication_types/"
+                />
+  </url>
   
-    
-    <url>
-    
-      <xhtml:link rel="alternate" href="https://crow-translate.github.io/tags/" hreflang="en"/>
-      <xhtml:link rel="alternate" href="https://crow-translate.github.io/ru/tags/" hreflang="ru"/>
-    
-      <loc>https://crow-translate.github.io/tags/</loc>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/screenshots/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/screenshots/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/screenshots/"
+                />
+  </url>
+  
+  <url>
+    <loc>/shortcuts/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/shortcuts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/shortcuts/"
+                />
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/"
+                />
+  </url>
   
 </urlset>

@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Crow Translate on Crow Translate</title>
-    <link>https://crow-translate.github.io/ru/</link>
-    <description>Recent content in Crow Translate on Crow Translate</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Crow Translate</title>
+    <link>/ru/</link>
+    <description>Recent content on Crow Translate</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>ru-ru</language>
-    <copyright>&amp;copy; 2018-2019 Hennadii Chernyshchyk</copyright>
-    <atom:link href="/ru/" rel="self" type="application/rss+xml" />
+    <copyright>&amp;copy; 2018-{year} Hennadii Chernyshchyk</copyright>
+    
+	    <atom:link href="/ru/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Горячие клавиши</title>
-      <link>https://crow-translate.github.io/ru/shortcuts/</link>
+      <link>/ru/shortcuts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://crow-translate.github.io/ru/shortcuts/</guid>
+      <guid>/ru/shortcuts/</guid>
       <description>
 
 &lt;p&gt;Вы можете изменить эти горячие клавиши в настройках. Некоторые комбинации клавиш могут быть недоступны из-за ограничений ОС.&lt;/p&gt;
@@ -109,10 +111,10 @@
     
     <item>
       <title>Консольные команды</title>
-      <link>https://crow-translate.github.io/ru/commands/</link>
+      <link>/ru/commands/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://crow-translate.github.io/ru/commands/</guid>
+      <guid>/ru/commands/</guid>
       <description>&lt;p&gt;Программа также имеет консольный интерфейс&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Использование:&lt;/strong&gt; &lt;code&gt;crow [опции] текст&lt;/code&gt;&lt;/p&gt;
@@ -153,7 +155,7 @@
 
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;-t, --translation &amp;lt;code&amp;gt;&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;Указать язык(и) перевода, соединенные через &#39;+&#39; (по умолчанию используется язык системы)&lt;/td&gt;
+&lt;td&gt;Указать язык(и) перевода, соединенные через &amp;lsquo;+&amp;rsquo; (по умолчанию используется язык системы)&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -163,7 +165,7 @@
 
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;-e, --engine &amp;lt;engine&amp;gt;&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;Указать движок переводчика (&#39;google&#39;, &#39;yandex&#39; или &#39;bing&#39;), Google используется по умолчанию&lt;/td&gt;
+&lt;td&gt;Указать движок переводчика (&amp;lsquo;google&amp;rsquo;, &amp;lsquo;yandex&amp;rsquo; или &amp;lsquo;bing&amp;rsquo;), Google используется по умолчанию&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -194,14 +196,24 @@
     
     <item>
       <title>Скриншоты</title>
-      <link>https://crow-translate.github.io/ru/screenshots/</link>
+      <link>/ru/screenshots/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://crow-translate.github.io/ru/screenshots/</guid>
+      <guid>/ru/screenshots/</guid>
       <description>
 
 &lt;h3 id=&#34;linux-plasma&#34;&gt;Linux Plasma&lt;/h3&gt;
 
+
+
+
+
+
+
+
+
+  
+  
 
 
 &lt;div class=&#34;gallery&#34;&gt;
@@ -215,13 +227,15 @@
   
   
   
+  
     
       
     
   
-  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;Главное окно&#34; href=&#34;https://crow-translate.github.io/img/screenshots/linux-plasma/main.png&#34;&gt;
-    &lt;img src=&#34;https://crow-translate.github.io/img/screenshots/linux-plasma/main.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;Главное окно&#34; href=&#34;/img/screenshots/linux-plasma/main.png&#34;&gt;
+    &lt;img src=&#34;/img/screenshots/linux-plasma/main.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
+  
   
   
 &lt;/div&gt;
@@ -230,6 +244,16 @@
 
 
 
+
+
+
+
+
+
+  
+  
+
+
 &lt;div class=&#34;gallery&#34;&gt;
 
   
@@ -241,13 +265,15 @@
   
   
   
+  
     
       
     
   
-  &lt;a data-fancybox=&#34;gallery-2&#34; data-caption=&#34;Всплывающее окно&#34; href=&#34;https://crow-translate.github.io/img/screenshots/linux-plasma/popup.png&#34;&gt;
-    &lt;img src=&#34;https://crow-translate.github.io/img/screenshots/linux-plasma/popup.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-2&#34; data-caption=&#34;Всплывающее окно&#34; href=&#34;/img/screenshots/linux-plasma/popup.png&#34;&gt;
+    &lt;img src=&#34;/img/screenshots/linux-plasma/popup.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
+  
   
   
 &lt;/div&gt;
@@ -256,6 +282,16 @@
 
 
 
+
+
+
+
+
+
+  
+  
+
+
 &lt;div class=&#34;gallery&#34;&gt;
 
   
@@ -267,13 +303,15 @@
   
   
   
+  
     
       
     
   
-  &lt;a data-fancybox=&#34;gallery-3&#34; data-caption=&#34;Перевод предложения&#34; href=&#34;https://crow-translate.github.io/img/screenshots/linux-plasma/sentense.png&#34;&gt;
-    &lt;img src=&#34;https://crow-translate.github.io/img/screenshots/linux-plasma/sentense.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-3&#34; data-caption=&#34;Перевод предложения&#34; href=&#34;/img/screenshots/linux-plasma/sentense.png&#34;&gt;
+    &lt;img src=&#34;/img/screenshots/linux-plasma/sentense.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
+  
   
   
 &lt;/div&gt;
@@ -282,6 +320,16 @@
 
 
 
+
+
+
+
+
+
+  
+  
+
+
 &lt;div class=&#34;gallery&#34;&gt;
 
   
@@ -293,13 +341,15 @@
   
   
   
+  
     
       
     
   
-  &lt;a data-fancybox=&#34;gallery-4&#34; data-caption=&#34;Настройки&#34; href=&#34;https://crow-translate.github.io/img/screenshots/linux-plasma/settings.png&#34;&gt;
-    &lt;img src=&#34;https://crow-translate.github.io/img/screenshots/linux-plasma/settings.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-4&#34; data-caption=&#34;Настройки&#34; href=&#34;/img/screenshots/linux-plasma/settings.png&#34;&gt;
+    &lt;img src=&#34;/img/screenshots/linux-plasma/settings.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
+  
   
   
 &lt;/div&gt;
@@ -310,6 +360,16 @@
 
 
 
+
+
+
+
+
+
+  
+  
+
+
 &lt;div class=&#34;gallery&#34;&gt;
 
   
@@ -321,13 +381,15 @@
   
   
   
+  
     
       
     
   
-  &lt;a data-fancybox=&#34;gallery-5&#34; data-caption=&#34;Главное окно&#34; href=&#34;https://crow-translate.github.io/img/screenshots/windows/main.png&#34;&gt;
-    &lt;img src=&#34;https://crow-translate.github.io/img/screenshots/windows/main.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-5&#34; data-caption=&#34;Главное окно&#34; href=&#34;/img/screenshots/windows/main.png&#34;&gt;
+    &lt;img src=&#34;/img/screenshots/windows/main.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
+  
   
   
 &lt;/div&gt;
@@ -336,6 +398,16 @@
 
 
 
+
+
+
+
+
+
+  
+  
+
+
 &lt;div class=&#34;gallery&#34;&gt;
 
   
@@ -347,13 +419,15 @@
   
   
   
+  
     
       
     
   
-  &lt;a data-fancybox=&#34;gallery-6&#34; data-caption=&#34;Всплывающее окно&#34; href=&#34;https://crow-translate.github.io/img/screenshots/windows/popup.png&#34;&gt;
-    &lt;img src=&#34;https://crow-translate.github.io/img/screenshots/windows/popup.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-6&#34; data-caption=&#34;Всплывающее окно&#34; href=&#34;/img/screenshots/windows/popup.png&#34;&gt;
+    &lt;img src=&#34;/img/screenshots/windows/popup.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
+  
   
   
 &lt;/div&gt;
@@ -362,6 +436,16 @@
 
 
 
+
+
+
+
+
+
+  
+  
+
+
 &lt;div class=&#34;gallery&#34;&gt;
 
   
@@ -373,13 +457,15 @@
   
   
   
+  
     
       
     
   
-  &lt;a data-fancybox=&#34;gallery-7&#34; data-caption=&#34;Перевод предложения&#34; href=&#34;https://crow-translate.github.io/img/screenshots/windows/sentense.png&#34;&gt;
-    &lt;img src=&#34;https://crow-translate.github.io/img/screenshots/windows/sentense.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-7&#34; data-caption=&#34;Перевод предложения&#34; href=&#34;/img/screenshots/windows/sentense.png&#34;&gt;
+    &lt;img src=&#34;/img/screenshots/windows/sentense.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
+  
   
   
 &lt;/div&gt;
@@ -388,6 +474,16 @@
 
 
 
+
+
+
+
+
+
+  
+  
+
+
 &lt;div class=&#34;gallery&#34;&gt;
 
   
@@ -399,13 +495,15 @@
   
   
   
+  
     
       
     
   
-  &lt;a data-fancybox=&#34;gallery-8&#34; data-caption=&#34;Настройки&#34; href=&#34;https://crow-translate.github.io/img/screenshots/windows/settings.png&#34;&gt;
-    &lt;img src=&#34;https://crow-translate.github.io/img/screenshots/windows/settings.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-8&#34; data-caption=&#34;Настройки&#34; href=&#34;/img/screenshots/windows/settings.png&#34;&gt;
+    &lt;img src=&#34;/img/screenshots/windows/settings.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
+  
   
   
 &lt;/div&gt;
