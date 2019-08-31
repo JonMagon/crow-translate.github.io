@@ -155,7 +155,7 @@
 
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;-t, --translation &amp;lt;code&amp;gt;&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;Указать язык(и) перевода, соединенные через &amp;lsquo;+&amp;rsquo; (по умолчанию используется язык системы)&lt;/td&gt;
+&lt;td&gt;Указать язык(и) перевода, разделенные символом &amp;lsquo;+&amp;rsquo; (по умолчанию используется язык системы)&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;

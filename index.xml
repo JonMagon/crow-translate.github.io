@@ -42,7 +42,7 @@
 
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;-c, --codes&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;Show all language codes&lt;/td&gt;
+&lt;td&gt;Display language codes&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -57,7 +57,7 @@
 
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;-t, --translation &amp;lt;code&amp;gt;&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;Specify the translation language(s), joined by &amp;lsquo;+&amp;rsquo; (by default, the system language is used)&lt;/td&gt;
+&lt;td&gt;Specify the translation language(s), splitted by &amp;lsquo;+&amp;rsquo; (by default, the system language is used)&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
