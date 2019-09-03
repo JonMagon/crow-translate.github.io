@@ -4,11 +4,11 @@
     <title>Tags on Crow Translate</title>
     <link>/tags/</link>
     <description>Recent content in Tags on Crow Translate</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018-{year} Hennadii Chernyshchyk</copyright>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
