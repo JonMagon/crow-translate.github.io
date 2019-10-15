@@ -3,19 +3,27 @@
   <channel>
     <title>Crow Translate</title>
     <link>/ru/</link>
-    <description>Recent content on Crow Translate</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>ru-ru</language>
-    <copyright>&amp;copy; 2018-{year} Hennadii Chernyshchyk</copyright>
+      <atom:link href="/ru/index.xml" rel="self" type="application/rss+xml" />
+    <description>Crow Translate</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>© 2018-2019 Hennadii Chernyshchyk</copyright>
+    <image>
+      <url>/img/logo.svg</url>
+      <title>Crow Translate</title>
+      <link>/ru/</link>
+    </image>
     
-	    <atom:link href="/ru/index.xml" rel="self" type="application/rss+xml" />
-    
+    <item>
+      <title></title>
+      <link></link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Горячие клавиши</title>
       <link>/ru/shortcuts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/ru/shortcuts/</guid>
       <description>
 
@@ -113,7 +121,6 @@
       <title>Консольные команды</title>
       <link>/ru/commands/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/ru/commands/</guid>
       <description>&lt;p&gt;Программа также имеет консольный интерфейс&lt;/p&gt;
 
@@ -198,7 +205,6 @@
       <title>Скриншоты</title>
       <link>/ru/screenshots/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/ru/screenshots/</guid>
       <description>
 
