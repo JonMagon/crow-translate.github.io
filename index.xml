@@ -1,34 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Crow Translate</title>
-    <link>/</link>
-      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <description>Crow Translate</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2019 Hennadii Chernyshchyk</copyright>
-    <image>
-      <url>/img/logo.svg</url>
-      <title>Crow Translate</title>
-      <link>/</link>
-    </image>
-    
-    <item>
-      <title></title>
-      <link></link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid></guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CLI commands</title>
-      <link>/commands/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/commands/</guid>
-      <description>&lt;p&gt;The program also has a console interface.&lt;/p&gt;
-
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Crow Translate</title><link>/</link><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><description>Crow Translate</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2018-2019 Hennadii Chernyshchyk</copyright><image><url>/img/logo.svg</url><title>Crow Translate</title><link>/</link></image><item><title>CLI commands</title><link>/commands/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/commands/</guid><description>&lt;p&gt;The program also has a console interface.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Usage:&lt;/strong&gt; &lt;code&gt;crow [options] text&lt;/code&gt;&lt;/p&gt;
-
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -36,402 +7,110 @@
 &lt;th&gt;Description&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
-
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;-h, --help&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;Display help&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;-v, --version&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;Display version information&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;-c, --codes&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;Display language codes&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;-a, --audio-only&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;Print text only for speaking when using &lt;code&gt;--speak-translation&lt;/code&gt; or &lt;code&gt;--speak-source&lt;/code&gt;&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;-s, --source &amp;lt;code&amp;gt;&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;Specify the source language (by default, engine will try to determine the language on its own)&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;-t, --translation &amp;lt;code&amp;gt;&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;Specify the translation language(s), splitted by &amp;lsquo;+&amp;rsquo; (by default, the system language is used)&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;-l, --locale &amp;lt;code&amp;gt;&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;Specify the translator language (by default, the system language is used)&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;-e, --engine &amp;lt;engine&amp;gt;&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;Specify the translator engine (&amp;lsquo;google&amp;rsquo;, &amp;lsquo;yandex&amp;rsquo; or &amp;lsquo;bing&amp;rsquo;), Google is used by default&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;-p, --speak-translation&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;Speak the translation&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;-u, --speak-source&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;Speak the source&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;-f, --file&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;Read source text from files. Arguments will be interpreted as file paths&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;-i, --stdin&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;Add stdin data to source text&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If you do not pass startup arguments to the program, the GUI starts.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Screenshots</title>
-      <link>/screenshots/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/screenshots/</guid>
-      <description>
-
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If you do not pass startup arguments to the program, the GUI starts.&lt;/p&gt;</description></item><item><title>Screenshots</title><link>/screenshots/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/screenshots/</guid><description>
 &lt;h3 id=&#34;linux-plasma&#34;&gt;Linux Plasma&lt;/h3&gt;
-
-
-
-
-
-
-
-
-
-  
-  
-
-
 &lt;div class=&#34;gallery&#34;&gt;
-
-  
-  
-  
-  
-
-  
-  
-  
-  
-  
-    
-      
-    
-  
-  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;Main window&#34; href=&#34;/img/screenshots/linux-plasma/main.png&#34;&gt;
-    &lt;img src=&#34;/img/screenshots/linux-plasma/main.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-  
-  
+&lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;Main window&#34; href=&#34;/img/screenshots/linux-plasma/main.png&#34;&gt;
+&lt;img src=&#34;/img/screenshots/linux-plasma/main.png&#34; alt=&#34;&#34;&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-
 &lt;p&gt;Main window&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-  
-  
-
-
 &lt;div class=&#34;gallery&#34;&gt;
-
-  
-  
-  
-  
-
-  
-  
-  
-  
-  
-    
-      
-    
-  
-  &lt;a data-fancybox=&#34;gallery-2&#34; data-caption=&#34;Pop-up window&#34; href=&#34;/img/screenshots/linux-plasma/popup.png&#34;&gt;
-    &lt;img src=&#34;/img/screenshots/linux-plasma/popup.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-  
-  
+&lt;a data-fancybox=&#34;gallery-2&#34; data-caption=&#34;Pop-up window&#34; href=&#34;/img/screenshots/linux-plasma/popup.png&#34;&gt;
+&lt;img src=&#34;/img/screenshots/linux-plasma/popup.png&#34; alt=&#34;&#34;&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-
 &lt;p&gt;Pop-up window&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-  
-  
-
-
 &lt;div class=&#34;gallery&#34;&gt;
-
-  
-  
-  
-  
-
-  
-  
-  
-  
-  
-    
-      
-    
-  
-  &lt;a data-fancybox=&#34;gallery-3&#34; data-caption=&#34;Sentense translation&#34; href=&#34;/img/screenshots/linux-plasma/sentense.png&#34;&gt;
-    &lt;img src=&#34;/img/screenshots/linux-plasma/sentense.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-  
-  
+&lt;a data-fancybox=&#34;gallery-3&#34; data-caption=&#34;Sentense translation&#34; href=&#34;/img/screenshots/linux-plasma/sentense.png&#34;&gt;
+&lt;img src=&#34;/img/screenshots/linux-plasma/sentense.png&#34; alt=&#34;&#34;&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-
 &lt;p&gt;Sentense translation&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-  
-  
-
-
 &lt;div class=&#34;gallery&#34;&gt;
-
-  
-  
-  
-  
-
-  
-  
-  
-  
-  
-    
-      
-    
-  
-  &lt;a data-fancybox=&#34;gallery-4&#34; data-caption=&#34;Settings&#34; href=&#34;/img/screenshots/linux-plasma/settings.png&#34;&gt;
-    &lt;img src=&#34;/img/screenshots/linux-plasma/settings.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-  
-  
+&lt;a data-fancybox=&#34;gallery-4&#34; data-caption=&#34;Settings&#34; href=&#34;/img/screenshots/linux-plasma/settings.png&#34;&gt;
+&lt;img src=&#34;/img/screenshots/linux-plasma/settings.png&#34; alt=&#34;&#34;&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-
 &lt;p&gt;Settings&lt;/p&gt;
-
 &lt;h3 id=&#34;windows-10&#34;&gt;Windows 10&lt;/h3&gt;
-
-
-
-
-
-
-
-
-
-  
-  
-
-
 &lt;div class=&#34;gallery&#34;&gt;
-
-  
-  
-  
-  
-
-  
-  
-  
-  
-  
-    
-      
-    
-  
-  &lt;a data-fancybox=&#34;gallery-5&#34; data-caption=&#34;Main window&#34; href=&#34;/img/screenshots/windows/main.png&#34;&gt;
-    &lt;img src=&#34;/img/screenshots/windows/main.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-  
-  
+&lt;a data-fancybox=&#34;gallery-5&#34; data-caption=&#34;Main window&#34; href=&#34;/img/screenshots/windows/main.png&#34;&gt;
+&lt;img src=&#34;/img/screenshots/windows/main.png&#34; alt=&#34;&#34;&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-
 &lt;p&gt;Main window&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-  
-  
-
-
 &lt;div class=&#34;gallery&#34;&gt;
-
-  
-  
-  
-  
-
-  
-  
-  
-  
-  
-    
-      
-    
-  
-  &lt;a data-fancybox=&#34;gallery-6&#34; data-caption=&#34;Pop-up window&#34; href=&#34;/img/screenshots/windows/popup.png&#34;&gt;
-    &lt;img src=&#34;/img/screenshots/windows/popup.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-  
-  
+&lt;a data-fancybox=&#34;gallery-6&#34; data-caption=&#34;Pop-up window&#34; href=&#34;/img/screenshots/windows/popup.png&#34;&gt;
+&lt;img src=&#34;/img/screenshots/windows/popup.png&#34; alt=&#34;&#34;&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-
 &lt;p&gt;Pop-up window&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-  
-  
-
-
 &lt;div class=&#34;gallery&#34;&gt;
-
-  
-  
-  
-  
-
-  
-  
-  
-  
-  
-    
-      
-    
-  
-  &lt;a data-fancybox=&#34;gallery-7&#34; data-caption=&#34;Sentense translation&#34; href=&#34;/img/screenshots/windows/sentense.png&#34;&gt;
-    &lt;img src=&#34;/img/screenshots/windows/sentense.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-  
-  
+&lt;a data-fancybox=&#34;gallery-7&#34; data-caption=&#34;Sentense translation&#34; href=&#34;/img/screenshots/windows/sentense.png&#34;&gt;
+&lt;img src=&#34;/img/screenshots/windows/sentense.png&#34; alt=&#34;&#34;&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-
 &lt;p&gt;Sentense translation&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-  
-  
-
-
 &lt;div class=&#34;gallery&#34;&gt;
-
-  
-  
-  
-  
-
-  
-  
-  
-  
-  
-    
-      
-    
-  
-  &lt;a data-fancybox=&#34;gallery-8&#34; data-caption=&#34;Settings&#34; href=&#34;/img/screenshots/windows/settings.png&#34;&gt;
-    &lt;img src=&#34;/img/screenshots/windows/settings.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-  
-  
+&lt;a data-fancybox=&#34;gallery-8&#34; data-caption=&#34;Settings&#34; href=&#34;/img/screenshots/windows/settings.png&#34;&gt;
+&lt;img src=&#34;/img/screenshots/windows/settings.png&#34; alt=&#34;&#34;&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-
-&lt;p&gt;Settings&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Shortcuts</title>
-      <link>/shortcuts/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/shortcuts/</guid>
-      <description>
-
+&lt;p&gt;Settings&lt;/p&gt;</description></item><item><title>Shortcuts</title><link>/shortcuts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/shortcuts/</guid><description>
 &lt;p&gt;You can change them in the settings. Some key sequences may not be available due to OS limitations.&lt;/p&gt;
-
 &lt;h3 id=&#34;global&#34;&gt;Global&lt;/h3&gt;
-
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -439,37 +118,30 @@
 &lt;th&gt;Description&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
-
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;E&lt;/kbd&gt;&lt;/td&gt;
 &lt;td&gt;Translate selected text&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;S&lt;/kbd&gt;&lt;/td&gt;
 &lt;td&gt;Speak selected text&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;F&lt;/kbd&gt;&lt;/td&gt;
 &lt;td&gt;Speak translation of selected text&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;G&lt;/kbd&gt;&lt;/td&gt;
 &lt;td&gt;Stop speaking selected text&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;C&lt;/kbd&gt;&lt;/td&gt;
 &lt;td&gt;Show main window&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-
 &lt;h3 id=&#34;in-main-window&#34;&gt;In main window&lt;/h3&gt;
-
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -477,46 +149,34 @@
 &lt;th&gt;Description&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
-
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Return&lt;/kbd&gt;&lt;/td&gt;
 &lt;td&gt;Translate&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Q&lt;/kbd&gt;&lt;/td&gt;
 &lt;td&gt;Close window&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;S&lt;/kbd&gt;&lt;/td&gt;
 &lt;td&gt;Play / pause source text speaking&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;G&lt;/kbd&gt;&lt;/td&gt;
 &lt;td&gt;Stop source text speaking&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Shift&lt;/kbd&gt; + &lt;kbd&gt;S&lt;/kbd&gt;&lt;/td&gt;
 &lt;td&gt;Play / pause translation speaking&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Shift&lt;/kbd&gt; + &lt;kbd&gt;D&lt;/kbd&gt;&lt;/td&gt;
 &lt;td&gt;Stop translation speaking&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Shift&lt;/kbd&gt; + &lt;kbd&gt;C&lt;/kbd&gt;&lt;/td&gt;
 &lt;td&gt;Copy translation to clipboard&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;/table&gt;</description></item></channel></rss>

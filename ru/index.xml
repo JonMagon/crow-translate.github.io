@@ -1,36 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Crow Translate</title>
-    <link>/ru/</link>
-      <atom:link href="/ru/index.xml" rel="self" type="application/rss+xml" />
-    <description>Crow Translate</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>© 2018-2019 Hennadii Chernyshchyk</copyright>
-    <image>
-      <url>/img/logo.svg</url>
-      <title>Crow Translate</title>
-      <link>/ru/</link>
-    </image>
-    
-    <item>
-      <title></title>
-      <link></link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid></guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Горячие клавиши</title>
-      <link>/ru/shortcuts/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/ru/shortcuts/</guid>
-      <description>
-
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Crow Translate</title><link>/ru/</link><atom:link href="/ru/index.xml" rel="self" type="application/rss+xml"/><description>Crow Translate</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru-ru</language><copyright>© 2018-2019 Hennadii Chernyshchyk</copyright><image><url>/img/logo.svg</url><title>Crow Translate</title><link>/ru/</link></image><item><title>Горячие клавиши</title><link>/ru/shortcuts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/ru/shortcuts/</guid><description>
 &lt;p&gt;Вы можете изменить эти горячие клавиши в настройках. Некоторые комбинации клавиш могут быть недоступны из-за ограничений ОС.&lt;/p&gt;
-
 &lt;h3 id=&#34;глобальные&#34;&gt;Глобальные&lt;/h3&gt;
-
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -38,37 +8,30 @@
 &lt;th&gt;Описание&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
-
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;E&lt;/kbd&gt;&lt;/td&gt;
 &lt;td&gt;Перевести выделенный текст&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;S&lt;/kbd&gt;&lt;/td&gt;
 &lt;td&gt;Озвучить выделенный текст&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;F&lt;/kbd&gt;&lt;/td&gt;
 &lt;td&gt;Озвучить перевод выделенного текста&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;G&lt;/kbd&gt;&lt;/td&gt;
 &lt;td&gt;Остановить озвучивание текста&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;C&lt;/kbd&gt;&lt;/td&gt;
 &lt;td&gt;Показать главное окно&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-
 &lt;h3 id=&#34;в-главном-окне&#34;&gt;В главном окне&lt;/h3&gt;
-
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -76,56 +39,38 @@
 &lt;th&gt;Описание&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
-
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Return&lt;/kbd&gt;&lt;/td&gt;
 &lt;td&gt;Перевести&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Q&lt;/kbd&gt;&lt;/td&gt;
 &lt;td&gt;Закрыть окно&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;S&lt;/kbd&gt;&lt;/td&gt;
 &lt;td&gt;Воспроизвести / приостановить озвучивание исходного текста&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;G&lt;/kbd&gt;&lt;/td&gt;
 &lt;td&gt;Остановить озвучивание исходного текста&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Shift&lt;/kbd&gt; + &lt;kbd&gt;S&lt;/kbd&gt;&lt;/td&gt;
 &lt;td&gt;Воспроизвести / приостановить озвучивание перевода&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Shift&lt;/kbd&gt; + &lt;kbd&gt;D&lt;/kbd&gt;&lt;/td&gt;
 &lt;td&gt;Остановить озвучивание перевода&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Shift&lt;/kbd&gt; + &lt;kbd&gt;C&lt;/kbd&gt;&lt;/td&gt;
 &lt;td&gt;Скопировать перевод в буфер обмена&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Консольные команды</title>
-      <link>/ru/commands/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/ru/commands/</guid>
-      <description>&lt;p&gt;Программа также имеет консольный интерфейс&lt;/p&gt;
-
+&lt;/table&gt;</description></item><item><title>Консольные команды</title><link>/ru/commands/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/ru/commands/</guid><description>&lt;p&gt;Программа также имеет консольный интерфейс&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Использование:&lt;/strong&gt; &lt;code&gt;crow [опции] текст&lt;/code&gt;&lt;/p&gt;
-
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -133,390 +78,105 @@
 &lt;th&gt;Описание&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
-
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;-h, --help&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;Показать справку&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;-v, --version&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;Показать информацию о версии&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;-c, --codes&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;Показать все коды языков&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;-a, --audio-only&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;Показывать только текст для озвучивания при использовании  &lt;code&gt;--speak-translation&lt;/code&gt; or &lt;code&gt;--speak-source&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Показывать только текст для озвучивания при использовании &lt;code&gt;--speak-translation&lt;/code&gt; or &lt;code&gt;--speak-source&lt;/code&gt;&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;-s, --source &amp;lt;code&amp;gt;&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;Указать язык исходного текста (по умолчанию движок попытается определить язык самостоятельно)&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;-t, --translation &amp;lt;code&amp;gt;&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;Указать язык(и) перевода, разделенные символом &amp;lsquo;+&amp;rsquo; (по умолчанию используется язык системы)&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;-l, --locale &amp;lt;code&amp;gt;&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;Указать язык переводчика (по умолчанию используется системный язык)&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;-e, --engine &amp;lt;engine&amp;gt;&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;Указать движок переводчика (&amp;lsquo;google&amp;rsquo;, &amp;lsquo;yandex&amp;rsquo; или &amp;lsquo;bing&amp;rsquo;), Google используется по умолчанию&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;-p, --speak-translation&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;Озвучить перевод&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;-u, --speak-source&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;Озвучить исходный текст&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;-f, --file&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;Считать исходный текст из файлов. Аргументы будут интерпретироваться как пути к файлам&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;-i, --stdin&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;Добавить данные из stdin в исходный текст&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-
-&lt;p&gt;&lt;strong&gt;Примечание:&lt;/strong&gt; Если не передать программе аргументы запуска, то запустится графический интерфейс.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Скриншоты</title>
-      <link>/ru/screenshots/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/ru/screenshots/</guid>
-      <description>
-
+&lt;p&gt;&lt;strong&gt;Примечание:&lt;/strong&gt; Если не передать программе аргументы запуска, то запустится графический интерфейс.&lt;/p&gt;</description></item><item><title>Скриншоты</title><link>/ru/screenshots/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/ru/screenshots/</guid><description>
 &lt;h3 id=&#34;linux-plasma&#34;&gt;Linux Plasma&lt;/h3&gt;
-
-
-
-
-
-
-
-
-
-  
-  
-
-
 &lt;div class=&#34;gallery&#34;&gt;
-
-  
-  
-  
-  
-
-  
-  
-  
-  
-  
-    
-      
-    
-  
-  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;Главное окно&#34; href=&#34;/img/screenshots/linux-plasma/main.png&#34;&gt;
-    &lt;img src=&#34;/img/screenshots/linux-plasma/main.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-  
-  
+&lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;Главное окно&#34; href=&#34;/img/screenshots/linux-plasma/main.png&#34;&gt;
+&lt;img src=&#34;/img/screenshots/linux-plasma/main.png&#34; alt=&#34;&#34;&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-
 &lt;p&gt;Главное окно&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-  
-  
-
-
 &lt;div class=&#34;gallery&#34;&gt;
-
-  
-  
-  
-  
-
-  
-  
-  
-  
-  
-    
-      
-    
-  
-  &lt;a data-fancybox=&#34;gallery-2&#34; data-caption=&#34;Всплывающее окно&#34; href=&#34;/img/screenshots/linux-plasma/popup.png&#34;&gt;
-    &lt;img src=&#34;/img/screenshots/linux-plasma/popup.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-  
-  
+&lt;a data-fancybox=&#34;gallery-2&#34; data-caption=&#34;Всплывающее окно&#34; href=&#34;/img/screenshots/linux-plasma/popup.png&#34;&gt;
+&lt;img src=&#34;/img/screenshots/linux-plasma/popup.png&#34; alt=&#34;&#34;&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-
 &lt;p&gt;Всплывающее окно&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-  
-  
-
-
 &lt;div class=&#34;gallery&#34;&gt;
-
-  
-  
-  
-  
-
-  
-  
-  
-  
-  
-    
-      
-    
-  
-  &lt;a data-fancybox=&#34;gallery-3&#34; data-caption=&#34;Перевод предложения&#34; href=&#34;/img/screenshots/linux-plasma/sentense.png&#34;&gt;
-    &lt;img src=&#34;/img/screenshots/linux-plasma/sentense.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-  
-  
+&lt;a data-fancybox=&#34;gallery-3&#34; data-caption=&#34;Перевод предложения&#34; href=&#34;/img/screenshots/linux-plasma/sentense.png&#34;&gt;
+&lt;img src=&#34;/img/screenshots/linux-plasma/sentense.png&#34; alt=&#34;&#34;&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-
 &lt;p&gt;Перевод предложения&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-  
-  
-
-
 &lt;div class=&#34;gallery&#34;&gt;
-
-  
-  
-  
-  
-
-  
-  
-  
-  
-  
-    
-      
-    
-  
-  &lt;a data-fancybox=&#34;gallery-4&#34; data-caption=&#34;Настройки&#34; href=&#34;/img/screenshots/linux-plasma/settings.png&#34;&gt;
-    &lt;img src=&#34;/img/screenshots/linux-plasma/settings.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-  
-  
+&lt;a data-fancybox=&#34;gallery-4&#34; data-caption=&#34;Настройки&#34; href=&#34;/img/screenshots/linux-plasma/settings.png&#34;&gt;
+&lt;img src=&#34;/img/screenshots/linux-plasma/settings.png&#34; alt=&#34;&#34;&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-
 &lt;p&gt;Настройки&lt;/p&gt;
-
 &lt;h3 id=&#34;windows-10&#34;&gt;Windows 10&lt;/h3&gt;
-
-
-
-
-
-
-
-
-
-  
-  
-
-
 &lt;div class=&#34;gallery&#34;&gt;
-
-  
-  
-  
-  
-
-  
-  
-  
-  
-  
-    
-      
-    
-  
-  &lt;a data-fancybox=&#34;gallery-5&#34; data-caption=&#34;Главное окно&#34; href=&#34;/img/screenshots/windows/main.png&#34;&gt;
-    &lt;img src=&#34;/img/screenshots/windows/main.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-  
-  
+&lt;a data-fancybox=&#34;gallery-5&#34; data-caption=&#34;Главное окно&#34; href=&#34;/img/screenshots/windows/main.png&#34;&gt;
+&lt;img src=&#34;/img/screenshots/windows/main.png&#34; alt=&#34;&#34;&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-
 &lt;p&gt;Главное окно&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-  
-  
-
-
 &lt;div class=&#34;gallery&#34;&gt;
-
-  
-  
-  
-  
-
-  
-  
-  
-  
-  
-    
-      
-    
-  
-  &lt;a data-fancybox=&#34;gallery-6&#34; data-caption=&#34;Всплывающее окно&#34; href=&#34;/img/screenshots/windows/popup.png&#34;&gt;
-    &lt;img src=&#34;/img/screenshots/windows/popup.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-  
-  
+&lt;a data-fancybox=&#34;gallery-6&#34; data-caption=&#34;Всплывающее окно&#34; href=&#34;/img/screenshots/windows/popup.png&#34;&gt;
+&lt;img src=&#34;/img/screenshots/windows/popup.png&#34; alt=&#34;&#34;&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-
 &lt;p&gt;Всплывающее окно&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-  
-  
-
-
 &lt;div class=&#34;gallery&#34;&gt;
-
-  
-  
-  
-  
-
-  
-  
-  
-  
-  
-    
-      
-    
-  
-  &lt;a data-fancybox=&#34;gallery-7&#34; data-caption=&#34;Перевод предложения&#34; href=&#34;/img/screenshots/windows/sentense.png&#34;&gt;
-    &lt;img src=&#34;/img/screenshots/windows/sentense.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-  
-  
+&lt;a data-fancybox=&#34;gallery-7&#34; data-caption=&#34;Перевод предложения&#34; href=&#34;/img/screenshots/windows/sentense.png&#34;&gt;
+&lt;img src=&#34;/img/screenshots/windows/sentense.png&#34; alt=&#34;&#34;&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-
 &lt;p&gt;Перевод предложения&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-  
-  
-
-
 &lt;div class=&#34;gallery&#34;&gt;
-
-  
-  
-  
-  
-
-  
-  
-  
-  
-  
-    
-      
-    
-  
-  &lt;a data-fancybox=&#34;gallery-8&#34; data-caption=&#34;Настройки&#34; href=&#34;/img/screenshots/windows/settings.png&#34;&gt;
-    &lt;img src=&#34;/img/screenshots/windows/settings.png&#34; alt=&#34;&#34;&gt;
-  &lt;/a&gt;
-  
-  
-  
+&lt;a data-fancybox=&#34;gallery-8&#34; data-caption=&#34;Настройки&#34; href=&#34;/img/screenshots/windows/settings.png&#34;&gt;
+&lt;img src=&#34;/img/screenshots/windows/settings.png&#34; alt=&#34;&#34;&gt;
+&lt;/a&gt;
 &lt;/div&gt;
-
-&lt;p&gt;Настройки&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;p&gt;Настройки&lt;/p&gt;</description></item></channel></rss>
