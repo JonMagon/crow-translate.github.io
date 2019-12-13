@@ -1,1 +1,89 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>/categories/</loc><xhtml:link rel="alternate" hreflang="ru" href="/ru/categories/"/><xhtml:link rel="alternate" hreflang="en" href="/categories/"/></url><url><loc>/commands/</loc><xhtml:link rel="alternate" hreflang="ru" href="/ru/commands/"/><xhtml:link rel="alternate" hreflang="en" href="/commands/"/></url><url><loc>/</loc><xhtml:link rel="alternate" hreflang="ru" href="/ru/"/><xhtml:link rel="alternate" hreflang="en" href="/"/></url><url><loc>/screenshots/</loc><xhtml:link rel="alternate" hreflang="ru" href="/ru/screenshots/"/><xhtml:link rel="alternate" hreflang="en" href="/screenshots/"/></url><url><loc>/shortcuts/</loc><xhtml:link rel="alternate" hreflang="ru" href="/ru/shortcuts/"/><xhtml:link rel="alternate" hreflang="en" href="/shortcuts/"/></url><url><loc>/tags/</loc><xhtml:link rel="alternate" hreflang="ru" href="/ru/tags/"/><xhtml:link rel="alternate" hreflang="en" href="/tags/"/></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>/commands/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/commands/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/commands/"
+                />
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/"
+                />
+  </url>
+  
+  <url>
+    <loc>/screenshots/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/screenshots/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/screenshots/"
+                />
+  </url>
+  
+  <url>
+    <loc>/shortcuts/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/shortcuts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/shortcuts/"
+                />
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/"
+                />
+  </url>
+  
+</urlset>

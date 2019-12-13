@@ -1,8 +1,642 @@
-<!doctype html><html lang=ru-ru><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=generator content="Source Themes Academic 4.6.3"><meta name=description content="Программа также имеет консольный интерфейс
+<!DOCTYPE html>
+<html lang="ru-ru">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.6.3">
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Программа также имеет консольный интерфейс
 Использование: crow [опции] текст
-   Опция Описание     -h, --help Показать справку   -v, --version Показать информацию о версии   -c, --codes Показать все коды языков   -a, --audio-only Показывать только текст для озвучивания при использовании --speak-translation or --speak-source   -s, --source &lt;code&gt; Указать язык исходного текста (по умолчанию движок попытается определить язык самостоятельно)   -t, --translation &lt;code&gt; Указать язык(и) перевода, разделенные символом &lsquo;&#43;&rsquo; (по умолчанию используется язык системы)   -l, --locale &lt;code&gt; Указать язык переводчика (по умолчанию используется системный язык)   -e, --engine &lt;engine&gt; Указать движок переводчика (&lsquo;google&rsquo;, &lsquo;yandex&rsquo; или &lsquo;bing&rsquo;), Google используется по умолчанию   -p, --speak-translation Озвучить перевод   -u, --speak-source Озвучить исходный текст   -f, --file Считать исходный текст из файлов."><link rel=alternate hreflang=en href=/commands/><link rel=alternate hreflang=ru-ru href=/ru/commands/><meta name=theme-color content=#4caf50><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin=anonymous><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin=anonymous><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap"><link rel=stylesheet href=/css/academic.css><link rel=manifest href=/ru/index.webmanifest><link rel=icon type=image/png href=/img/icon-32.png><link rel=apple-touch-icon type=image/png href=/img/icon-192.png><link rel=canonical href=/ru/commands/><meta property=twitter:card content=summary_large_image><meta property=og:site_name content="Crow Translate"><meta property=og:url content=/ru/commands/><meta property=og:title content="Консольные команды | Crow Translate"><meta property=og:description content="Программа также имеет консольный интерфейс
+   Опция Описание     -h, --help Показать справку   -v, --version Показать информацию о версии   -c, --codes Показать все коды языков   -a, --audio-only Показывать только текст для озвучивания при использовании --speak-translation or --speak-source   -s, --source &lt;code&gt; Указать язык исходного текста (по умолчанию движок попытается определить язык самостоятельно)   -t, --translation &lt;code&gt; Указать язык(и) перевода, разделенные символом &lsquo;&#43;&rsquo; (по умолчанию используется язык системы)   -l, --locale &lt;code&gt; Указать язык переводчика (по умолчанию используется системный язык)   -e, --engine &lt;engine&gt; Указать движок переводчика (&lsquo;google&rsquo;, &lsquo;yandex&rsquo; или &lsquo;bing&rsquo;), Google используется по умолчанию   -p, --speak-translation Озвучить перевод   -u, --speak-source Озвучить исходный текст   -f, --file Считать исходный текст из файлов.">
+
+  
+  <link rel="alternate" hreflang="en" href="/commands/">
+  
+  <link rel="alternate" hreflang="ru-ru" href="/ru/commands/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#4caf50">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+
+    
+
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/ru/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/ru/commands/">
+
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="Crow Translate">
+  <meta property="og:url" content="/ru/commands/">
+  <meta property="og:title" content="Консольные команды | Crow Translate">
+  <meta property="og:description" content="Программа также имеет консольный интерфейс
 Использование: crow [опции] текст
-   Опция Описание     -h, --help Показать справку   -v, --version Показать информацию о версии   -c, --codes Показать все коды языков   -a, --audio-only Показывать только текст для озвучивания при использовании --speak-translation or --speak-source   -s, --source &lt;code&gt; Указать язык исходного текста (по умолчанию движок попытается определить язык самостоятельно)   -t, --translation &lt;code&gt; Указать язык(и) перевода, разделенные символом &lsquo;&#43;&rsquo; (по умолчанию используется язык системы)   -l, --locale &lt;code&gt; Указать язык переводчика (по умолчанию используется системный язык)   -e, --engine &lt;engine&gt; Указать движок переводчика (&lsquo;google&rsquo;, &lsquo;yandex&rsquo; или &lsquo;bing&rsquo;), Google используется по умолчанию   -p, --speak-translation Озвучить перевод   -u, --speak-source Озвучить исходный текст   -f, --file Считать исходный текст из файлов."><meta property=og:image content=/img/logo.svg><meta property=twitter:image content=/img/logo.svg><meta property=og:locale content=ru-ru><title>Консольные команды | Crow Translate</title></head><body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents><aside class=search-results id=search><div class=container><section class=search-header><div class="row no-gutters justify-content-between mb-3"><div class=col-6><h1>Поиск</h1></div><div class="col-6 col-search-close"><a class=js-search href=#><i class="fas fa-times-circle text-muted" aria-hidden=true></i></a></div></div><div id=search-box></div></section><section class=section-search-results><div id=search-hits></div></section></div></aside><nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id=navbar-main><div class=container><div class="d-none d-lg-inline-flex"><a class=navbar-brand href=/ru>Crow Translate</a></div><button type=button class=navbar-toggler data-toggle=collapse data-target=#navbar-content aria-controls=navbar aria-expanded=false aria-label="Переключить навигацию">
-<span><i class="fas fa-bars"></i></span></button><div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none"><a class=navbar-brand href=/ru>Crow Translate</a></div><div class="navbar-collapse main-menu-item collapse justify-content-start" id=navbar-content><ul class="navbar-nav d-md-inline-flex"><li class=nav-item><a class=nav-link href=/ru/screenshots><i class="fas fa-images"></i><span>Скриншоты</span></a></li><li class=nav-item><a class=nav-link href=/ru/shortcuts><i class="fas fa-keyboard"></i><span>Горячие клавиши</span></a></li><li class=nav-item><a class="nav-link  active" href=/ru/commands><i class="fas fa-terminal"></i><span>Команды</span></a></li><li class=nav-item><a class=nav-link href=https://github.com/crow-translate/crow-translate/blob/master/CHANGELOG.md target=_blank rel=noopener><i class="fas fa-newspaper"></i><span>Изменения</span></a></li></ul><ul class="navbar-nav ml-md-auto"><li class=nav-item><a class=nav-link href=https://www.transifex.com/crow-translate/crow-translate/dashboard/ target=_blank rel=noopener><span><i class="fas fa-globe-americas"></i></span>Transifex</a></li><li class=nav-item><a class=nav-link href=https://github.com/crow-translate target=_blank rel=noopener><span><i class="fab fa-github-alt"></i></span>GitHub</a></li></ul></div><ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2"><li class=nav-item><a class="nav-link js-dark-toggle" href=#><i class="fas fa-moon" aria-hidden=true></i></a></li><li class="nav-item dropdown i18n-dropdown"><a href=# class="nav-link dropdown-toggle" data-toggle=dropdown aria-haspopup=true><i class="fas fa-globe mr-1" aria-hidden=true></i><span class="d-none d-lg-inline">Русский</span></a><div class=dropdown-menu><div class="dropdown-item i18n-active font-weight-bold"><span>Русский</span></div><a class=dropdown-item href=/commands/><span>English</span></a></div></li></ul></div></nav><article class=article><div class="article-container pt-3"><h1>Консольные команды</h1><div class=article-metadata></div></div><div class=article-container><div class=article-style><p>Программа также имеет консольный интерфейс</p><p><strong>Использование:</strong> <code>crow [опции] текст</code></p><table><thead><tr><th>Опция</th><th>Описание</th></tr></thead><tbody><tr><td><code>-h, --help</code></td><td>Показать справку</td></tr><tr><td><code>-v, --version</code></td><td>Показать информацию о версии</td></tr><tr><td><code>-c, --codes</code></td><td>Показать все коды языков</td></tr><tr><td><code>-a, --audio-only</code></td><td>Показывать только текст для озвучивания при использовании <code>--speak-translation</code> or <code>--speak-source</code></td></tr><tr><td><code>-s, --source &lt;code&gt;</code></td><td>Указать язык исходного текста (по умолчанию движок попытается определить язык самостоятельно)</td></tr><tr><td><code>-t, --translation &lt;code&gt;</code></td><td>Указать язык(и) перевода, разделенные символом &lsquo;+&rsquo; (по умолчанию используется язык системы)</td></tr><tr><td><code>-l, --locale &lt;code&gt;</code></td><td>Указать язык переводчика (по умолчанию используется системный язык)</td></tr><tr><td><code>-e, --engine &lt;engine&gt;</code></td><td>Указать движок переводчика (&lsquo;google&rsquo;, &lsquo;yandex&rsquo; или &lsquo;bing&rsquo;), Google используется по умолчанию</td></tr><tr><td><code>-p, --speak-translation</code></td><td>Озвучить перевод</td></tr><tr><td><code>-u, --speak-source</code></td><td>Озвучить исходный текст</td></tr><tr><td><code>-f, --file</code></td><td>Считать исходный текст из файлов. Аргументы будут интерпретироваться как пути к файлам</td></tr><tr><td><code>-i, --stdin</code></td><td>Добавить данные из stdin в исходный текст</td></tr></tbody></table><p><strong>Примечание:</strong> Если не передать программе аргументы запуска, то запустится графический интерфейс.</p></div></div></article><script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin=anonymous></script><script>const code_highlighting=false;</script><script src=/js/academic.min.f218084425bfafebbca8d75760d5fa66.js></script><div class=container><footer class=site-footer><p class=powered-by>&copy; 2018-2019 Hennadii Chernyshchyk.</p></footer></div><div id=modal class="modal fade" role=dialog><div class=modal-dialog><div class=modal-content><div class=modal-header><h5 class=modal-title>Процитировать</h5><button type=button class=close data-dismiss=modal aria-label=Close>
-<span aria-hidden=true>&times;</span></button></div><div class=modal-body><pre><code class="tex hljs"></code></pre></div><div class=modal-footer><a class="btn btn-outline-primary my-1 js-copy-cite" href=# target=_blank><i class="fas fa-copy"></i>Копия</a>
-<a class="btn btn-outline-primary my-1 js-download-cite" href=# target=_blank><i class="fas fa-download"></i>Скачать</a><div id=modal-error></div></div></div></div></div></body></html>
+   Опция Описание     -h, --help Показать справку   -v, --version Показать информацию о версии   -c, --codes Показать все коды языков   -a, --audio-only Показывать только текст для озвучивания при использовании --speak-translation or --speak-source   -s, --source &lt;code&gt; Указать язык исходного текста (по умолчанию движок попытается определить язык самостоятельно)   -t, --translation &lt;code&gt; Указать язык(и) перевода, разделенные символом &lsquo;&#43;&rsquo; (по умолчанию используется язык системы)   -l, --locale &lt;code&gt; Указать язык переводчика (по умолчанию используется системный язык)   -e, --engine &lt;engine&gt; Указать движок переводчика (&lsquo;google&rsquo;, &lsquo;yandex&rsquo; или &lsquo;bing&rsquo;), Google используется по умолчанию   -p, --speak-translation Озвучить перевод   -u, --speak-source Озвучить исходный текст   -f, --file Считать исходный текст из файлов."><meta property="og:image" content="/img/logo.svg">
+  <meta property="twitter:image" content="/img/logo.svg"><meta property="og:locale" content="ru-ru">
+  
+    
+    
+  
+
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Консольные команды | Crow Translate</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Поиск</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/ru">Crow Translate</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Переключить навигацию">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/ru">Crow Translate</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/ru/screenshots"><i class="fas fa-images"></i> <span>Скриншоты</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/ru/shortcuts"><i class="fas fa-keyboard"></i> <span>Горячие клавиши</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/ru/commands"><i class="fas fa-terminal"></i> <span>Команды</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+            
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="https://github.com/crow-translate/crow-translate/blob/master/CHANGELOG.md" target="_blank" rel="noopener"><i class="fas fa-newspaper"></i> <span>Изменения</span></a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-md-auto">
+      
+
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.transifex.com/crow-translate/crow-translate/dashboard/" target="_blank" rel="noopener"><span><i class="fas fa-globe-americas"></i> </span>Transifex</a>
+        </li>
+
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/crow-translate" target="_blank" rel="noopener"><span><i class="fab fa-github-alt"></i> </span>GitHub</a>
+        </li>
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+
+      
+      <li class="nav-item">
+        <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item dropdown i18n-dropdown">
+        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-globe mr-1" aria-hidden="true"></i><span class="d-none d-lg-inline">Русский</span>
+        </a>
+        <div class="dropdown-menu">
+          <div class="dropdown-item i18n-active font-weight-bold">
+            <span>Русский</span>
+          </div>
+          
+          <a class="dropdown-item" href="/commands/">
+            <span>English</span>
+          </a>
+          
+        </div>
+      </li>
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Консольные команды</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>Программа также имеет консольный интерфейс</p>
+
+<p><strong>Использование:</strong> <code>crow [опции] текст</code></p>
+
+<table>
+<thead>
+<tr>
+<th>Опция</th>
+<th>Описание</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><code>-h, --help</code></td>
+<td>Показать справку</td>
+</tr>
+
+<tr>
+<td><code>-v, --version</code></td>
+<td>Показать информацию о версии</td>
+</tr>
+
+<tr>
+<td><code>-c, --codes</code></td>
+<td>Показать все коды языков</td>
+</tr>
+
+<tr>
+<td><code>-a, --audio-only</code></td>
+<td>Показывать только текст для озвучивания при использовании  <code>--speak-translation</code> or <code>--speak-source</code></td>
+</tr>
+
+<tr>
+<td><code>-s, --source &lt;code&gt;</code></td>
+<td>Указать язык исходного текста (по умолчанию движок попытается определить язык самостоятельно)</td>
+</tr>
+
+<tr>
+<td><code>-t, --translation &lt;code&gt;</code></td>
+<td>Указать язык(и) перевода, разделенные символом &lsquo;+&rsquo; (по умолчанию используется язык системы)</td>
+</tr>
+
+<tr>
+<td><code>-l, --locale &lt;code&gt;</code></td>
+<td>Указать язык переводчика (по умолчанию используется системный язык)</td>
+</tr>
+
+<tr>
+<td><code>-e, --engine &lt;engine&gt;</code></td>
+<td>Указать движок переводчика (&lsquo;google&rsquo;, &lsquo;yandex&rsquo; или &lsquo;bing&rsquo;), Google используется по умолчанию</td>
+</tr>
+
+<tr>
+<td><code>-p, --speak-translation</code></td>
+<td>Озвучить перевод</td>
+</tr>
+
+<tr>
+<td><code>-u, --speak-source</code></td>
+<td>Озвучить исходный текст</td>
+</tr>
+
+<tr>
+<td><code>-f, --file</code></td>
+<td>Считать исходный текст из файлов. Аргументы будут интерпретироваться как пути к файлам</td>
+</tr>
+
+<tr>
+<td><code>-i, --stdin</code></td>
+<td>Добавить данные из stdin в исходный текст</td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>Примечание:</strong> Если не передать программе аргументы запуска, то запустится графический интерфейс.</p>
+
+    </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    <script>const code_highlighting = false;</script>
+    
+
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/academic.min.f218084425bfafebbca8d75760d5fa66.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  <p class="powered-by">
+    &copy; 2018-2019 Hennadii Chernyshchyk.
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Процитировать</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Копия
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Скачать
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
