@@ -24,8 +24,8 @@
   
     
   
-  <meta name="description" content=" Вы можете изменить эти горячие клавиши в настройках. Некоторые комбинации клавиш могут быть недоступны из-за ограничений ОС.
-Глобальные    Комбинация Описание     Ctrl &#43; Alt &#43; E Перевести выделенный текст   Ctrl &#43; Alt &#43; S Озвучить выделенный текст   Ctrl &#43; Alt &#43; F Озвучить перевод выделенного текста   Ctrl &#43; Alt &#43; G Остановить озвучивание текста   Ctrl &#43; Alt &#43; C Показать главное окно    В главном окне    Комбинация Описание     Ctrl &#43; Return Перевести   Ctrl &#43; Q Закрыть окно   Ctrl &#43; S Воспроизвести / приостановить озвучивание исходного текста   Ctrl &#43; G Остановить озвучивание исходного текста   Ctrl &#43; Shift &#43; S Воспроизвести / приостановить озвучивание перевода   Ctrl &#43; Shift &#43; D Остановить озвучивание перевода   Ctrl &#43; Shift &#43; C Скопировать перевод в буфер обмена    ">
+  <meta name="description" content="Вы можете изменить эти горячие клавиши в настройках. Некоторые комбинации клавиш могут быть недоступны из-за ограничений ОС.
+Wayland не поддерживает глобальные горячие клавиши, но вы можете использовать D-Bus для назначения действий в настройках системы. Для окружений рабочего стола, которые поддерживают дополнительные действия приложений (KDE, например) вы увидите уже предопределенные горячие клавиши в системных настройках. Вы также можете использовать их для X11 сессии, но вам нужно отключить регистрацию глобальных горячих клавиш в настройках приложения для избежания конфликтов.">
 
   
   <link rel="alternate" hreflang="en" href="/shortcuts/">
@@ -55,6 +55,14 @@
     
       
     
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
     
 
     
@@ -103,8 +111,8 @@
   <meta property="og:site_name" content="Crow Translate">
   <meta property="og:url" content="/ru/shortcuts/">
   <meta property="og:title" content="Горячие клавиши | Crow Translate">
-  <meta property="og:description" content=" Вы можете изменить эти горячие клавиши в настройках. Некоторые комбинации клавиш могут быть недоступны из-за ограничений ОС.
-Глобальные    Комбинация Описание     Ctrl &#43; Alt &#43; E Перевести выделенный текст   Ctrl &#43; Alt &#43; S Озвучить выделенный текст   Ctrl &#43; Alt &#43; F Озвучить перевод выделенного текста   Ctrl &#43; Alt &#43; G Остановить озвучивание текста   Ctrl &#43; Alt &#43; C Показать главное окно    В главном окне    Комбинация Описание     Ctrl &#43; Return Перевести   Ctrl &#43; Q Закрыть окно   Ctrl &#43; S Воспроизвести / приостановить озвучивание исходного текста   Ctrl &#43; G Остановить озвучивание исходного текста   Ctrl &#43; Shift &#43; S Воспроизвести / приостановить озвучивание перевода   Ctrl &#43; Shift &#43; D Остановить озвучивание перевода   Ctrl &#43; Shift &#43; C Скопировать перевод в буфер обмена    "><meta property="og:image" content="/img/logo.svg">
+  <meta property="og:description" content="Вы можете изменить эти горячие клавиши в настройках. Некоторые комбинации клавиш могут быть недоступны из-за ограничений ОС.
+Wayland не поддерживает глобальные горячие клавиши, но вы можете использовать D-Bus для назначения действий в настройках системы. Для окружений рабочего стола, которые поддерживают дополнительные действия приложений (KDE, например) вы увидите уже предопределенные горячие клавиши в системных настройках. Вы также можете использовать их для X11 сессии, но вам нужно отключить регистрацию глобальных горячих клавиш в настройках приложения для избежания конфликтов."><meta property="og:image" content="/img/logo.svg">
   <meta property="twitter:image" content="/img/logo.svg"><meta property="og:locale" content="ru-ru">
   
     
@@ -432,7 +440,9 @@
 
 <p>Вы можете изменить эти горячие клавиши в настройках. Некоторые комбинации клавиш могут быть недоступны из-за ограничений ОС.</p>
 
-<h3 id="глобальные">Глобальные</h3>
+<p>Wayland не поддерживает глобальные горячие клавиши, но вы можете использовать <a href="#d-bus-api">D-Bus</a> для назначения действий в настройках системы. Для окружений рабочего стола, которые поддерживают <a href="https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html#extra-actions" target="_blank">дополнительные действия приложений</a> (KDE, например) вы увидите уже предопределенные горячие клавиши в системных настройках. Вы также можете использовать их для X11 сессии, но вам нужно отключить регистрацию глобальных горячих клавиш в настройках приложения для избежания конфликтов.</p>
+
+<h2 id="глобальные">Глобальные</h2>
 
 <table>
 <thead>
@@ -470,7 +480,7 @@
 </tbody>
 </table>
 
-<h3 id="в-главном-окне">В главном окне</h3>
+<h2 id="в-главном-окне">В главном окне</h2>
 
 <table>
 <thead>
@@ -497,18 +507,8 @@
 </tr>
 
 <tr>
-<td><kbd>Ctrl</kbd> + <kbd>G</kbd></td>
-<td>Остановить озвучивание исходного текста</td>
-</tr>
-
-<tr>
 <td><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd></td>
 <td>Воспроизвести / приостановить озвучивание перевода</td>
-</tr>
-
-<tr>
-<td><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>D</kbd></td>
-<td>Остановить озвучивание перевода</td>
 </tr>
 
 <tr>
@@ -517,6 +517,32 @@
 </tr>
 </tbody>
 </table>
+
+<h2 id="d-bus-api">D-Bus API</h2>
+
+<p>В данный момент доступно только для <a href="#глобальные">глобальных горячих клавиш</a>.</p>
+
+<pre><code>io.crow_translate.CrowTranslate
+└── /io/crow_translate/CrowTranslate/MainWindow
+    ├── method void io.crow_translate.CrowTranslate.MainWindow.copyTranslatedSelection()
+    ├── method void io.crow_translate.CrowTranslate.MainWindow.open()
+    ├── method void io.crow_translate.CrowTranslate.MainWindow.speakSelection()
+    ├── method void io.crow_translate.CrowTranslate.MainWindow.speakTranslatedSelection()
+    ├── method void io.crow_translate.CrowTranslate.MainWindow.stopSpeaking()
+    └── method void io.crow_translate.CrowTranslate.MainWindow.translateSelection()
+</code></pre>
+
+<p>Например, вы можете показать главное окно с помощью <code>dbus-send</code>:</p>
+
+<pre><code class="language-bash">dbus-send --type=method_call --dest=io.crow_translate.CrowTranslate /io/crow_translate/CrowTranslate/MainWindow io.crow_translate.CrowTranslate.MainWindow.open
+</code></pre>
+
+<p>или с помощью <code>qdbus</code>:</p>
+
+<pre><code class="language-bash">qdbus io.crow_translate.CrowTranslate /io/crow_translate/CrowTranslate/MainWindow io.crow_translate.CrowTranslate.MainWindow.open
+# или более короткая запись
+qdbus io.crow_translate.CrowTranslate /io/crow_translate/CrowTranslate/MainWindow open
+</code></pre>
 
     </div>
 
@@ -561,6 +587,10 @@
       
 
       
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        
+      
 
       
       
@@ -571,7 +601,7 @@
 
     
     
-    <script>const code_highlighting = false;</script>
+    <script>const code_highlighting = true;</script>
     
 
     

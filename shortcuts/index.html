@@ -24,8 +24,8 @@
   
     
   
-  <meta name="description" content=" You can change them in the settings. Some key sequences may not be available due to OS limitations.
-Global    Key Description     Ctrl &#43; Alt &#43; E Translate selected text   Ctrl &#43; Alt &#43; S Speak selected text   Ctrl &#43; Alt &#43; F Speak translation of selected text   Ctrl &#43; Alt &#43; G Stop speaking selected text   Ctrl &#43; Alt &#43; C Show main window    In main window    Key Description     Ctrl &#43; Return Translate   Ctrl &#43; Q Close window   Ctrl &#43; S Play / pause source text speaking   Ctrl &#43; G Stop source text speaking   Ctrl &#43; Shift &#43; S Play / pause translation speaking   Ctrl &#43; Shift &#43; D Stop translation speaking   Ctrl &#43; Shift &#43; C Copy translation to clipboard    ">
+  <meta name="description" content="You can change them in the settings. Some key sequences may not be available due to OS limitations.
+Wayland does not support global shortcuts registration, but you can use D-Bus to bind actions in the system settings. For desktop environments that support additional applications actions (KDE, for example) you will see them predefined in the system shortcut settings. You can also use them for X11 sessions, but you need to disable global shortcuts registration in the application settings to avoid conflicts.">
 
   
   <link rel="alternate" hreflang="ru" href="/ru/shortcuts/">
@@ -55,6 +55,14 @@ Global    Key Description     Ctrl &#43; Alt &#43; E Translate selected text   C
     
       
     
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
     
 
     
@@ -103,8 +111,8 @@ Global    Key Description     Ctrl &#43; Alt &#43; E Translate selected text   C
   <meta property="og:site_name" content="Crow Translate">
   <meta property="og:url" content="/shortcuts/">
   <meta property="og:title" content="Shortcuts | Crow Translate">
-  <meta property="og:description" content=" You can change them in the settings. Some key sequences may not be available due to OS limitations.
-Global    Key Description     Ctrl &#43; Alt &#43; E Translate selected text   Ctrl &#43; Alt &#43; S Speak selected text   Ctrl &#43; Alt &#43; F Speak translation of selected text   Ctrl &#43; Alt &#43; G Stop speaking selected text   Ctrl &#43; Alt &#43; C Show main window    In main window    Key Description     Ctrl &#43; Return Translate   Ctrl &#43; Q Close window   Ctrl &#43; S Play / pause source text speaking   Ctrl &#43; G Stop source text speaking   Ctrl &#43; Shift &#43; S Play / pause translation speaking   Ctrl &#43; Shift &#43; D Stop translation speaking   Ctrl &#43; Shift &#43; C Copy translation to clipboard    "><meta property="og:image" content="/img/logo.svg">
+  <meta property="og:description" content="You can change them in the settings. Some key sequences may not be available due to OS limitations.
+Wayland does not support global shortcuts registration, but you can use D-Bus to bind actions in the system settings. For desktop environments that support additional applications actions (KDE, for example) you will see them predefined in the system shortcut settings. You can also use them for X11 sessions, but you need to disable global shortcuts registration in the application settings to avoid conflicts."><meta property="og:image" content="/img/logo.svg">
   <meta property="twitter:image" content="/img/logo.svg"><meta property="og:locale" content="en-us">
   
     
@@ -432,7 +440,9 @@ Global    Key Description     Ctrl &#43; Alt &#43; E Translate selected text   C
 
 <p>You can change them in the settings. Some key sequences may not be available due to OS limitations.</p>
 
-<h3 id="global">Global</h3>
+<p>Wayland does not support global shortcuts registration, but you can use <a href="#d-bus-api">D-Bus</a> to bind actions in the system settings. For desktop environments that support <a href="https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html#extra-actions" target="_blank">additional applications actions</a> (KDE, for example) you will see them predefined in the system shortcut settings. You can also use them for X11 sessions, but you need to disable global shortcuts registration in the application settings to avoid conflicts.</p>
+
+<h2 id="global">Global</h2>
 
 <table>
 <thead>
@@ -460,7 +470,7 @@ Global    Key Description     Ctrl &#43; Alt &#43; E Translate selected text   C
 
 <tr>
 <td><kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>G</kbd></td>
-<td>Stop speaking selected text</td>
+<td>Stop speaking</td>
 </tr>
 
 <tr>
@@ -470,7 +480,7 @@ Global    Key Description     Ctrl &#43; Alt &#43; E Translate selected text   C
 </tbody>
 </table>
 
-<h3 id="in-main-window">In main window</h3>
+<h2 id="in-main-window">In main window</h2>
 
 <table>
 <thead>
@@ -493,22 +503,12 @@ Global    Key Description     Ctrl &#43; Alt &#43; E Translate selected text   C
 
 <tr>
 <td><kbd>Ctrl</kbd> + <kbd>S</kbd></td>
-<td>Play / pause source text speaking</td>
-</tr>
-
-<tr>
-<td><kbd>Ctrl</kbd> + <kbd>G</kbd></td>
-<td>Stop source text speaking</td>
+<td>Speak source / pause text speaking</td>
 </tr>
 
 <tr>
 <td><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd></td>
-<td>Play / pause translation speaking</td>
-</tr>
-
-<tr>
-<td><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>D</kbd></td>
-<td>Stop translation speaking</td>
+<td>Speak translation / pause text speaking</td>
 </tr>
 
 <tr>
@@ -517,6 +517,32 @@ Global    Key Description     Ctrl &#43; Alt &#43; E Translate selected text   C
 </tr>
 </tbody>
 </table>
+
+<h2 id="d-bus-api">D-Bus API</h2>
+
+<p>Currently available only for <a href="#global">global shortcuts</a>.</p>
+
+<pre><code>io.crow_translate.CrowTranslate
+└── /io/crow_translate/CrowTranslate/MainWindow
+    ├── method void io.crow_translate.CrowTranslate.MainWindow.copyTranslatedSelection()
+    ├── method void io.crow_translate.CrowTranslate.MainWindow.open()
+    ├── method void io.crow_translate.CrowTranslate.MainWindow.speakSelection()
+    ├── method void io.crow_translate.CrowTranslate.MainWindow.speakTranslatedSelection()
+    ├── method void io.crow_translate.CrowTranslate.MainWindow.stopSpeaking()
+    └── method void io.crow_translate.CrowTranslate.MainWindow.translateSelection()
+</code></pre>
+
+<p>For example, you can show main window using <code>dbus-send</code>:</p>
+
+<pre><code class="language-bash">dbus-send --type=method_call --dest=io.crow_translate.CrowTranslate /io/crow_translate/CrowTranslate/MainWindow io.crow_translate.CrowTranslate.MainWindow.open
+</code></pre>
+
+<p>Or via <code>qdbus</code>:</p>
+
+<pre><code class="language-bash">qdbus io.crow_translate.CrowTranslate /io/crow_translate/CrowTranslate/MainWindow io.crow_translate.CrowTranslate.MainWindow.open
+# or shorter
+qdbus io.crow_translate.CrowTranslate /io/crow_translate/CrowTranslate/MainWindow open
+</code></pre>
 
     </div>
 
@@ -561,6 +587,10 @@ Global    Key Description     Ctrl &#43; Alt &#43; E Translate selected text   C
       
 
       
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        
+      
 
       
       
@@ -571,7 +601,7 @@ Global    Key Description     Ctrl &#43; Alt &#43; E Translate selected text   C
 
     
     
-    <script>const code_highlighting = false;</script>
+    <script>const code_highlighting = true;</script>
     
 
     

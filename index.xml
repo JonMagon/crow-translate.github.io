@@ -422,7 +422,9 @@
 
 &lt;p&gt;You can change them in the settings. Some key sequences may not be available due to OS limitations.&lt;/p&gt;
 
-&lt;h3 id=&#34;global&#34;&gt;Global&lt;/h3&gt;
+&lt;p&gt;Wayland does not support global shortcuts registration, but you can use &lt;a href=&#34;#d-bus-api&#34;&gt;D-Bus&lt;/a&gt; to bind actions in the system settings. For desktop environments that support &lt;a href=&#34;https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html#extra-actions&#34; target=&#34;_blank&#34;&gt;additional applications actions&lt;/a&gt; (KDE, for example) you will see them predefined in the system shortcut settings. You can also use them for X11 sessions, but you need to disable global shortcuts registration in the application settings to avoid conflicts.&lt;/p&gt;
+
+&lt;h2 id=&#34;global&#34;&gt;Global&lt;/h2&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -450,7 +452,7 @@
 
 &lt;tr&gt;
 &lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;G&lt;/kbd&gt;&lt;/td&gt;
-&lt;td&gt;Stop speaking selected text&lt;/td&gt;
+&lt;td&gt;Stop speaking&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -460,7 +462,7 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;h3 id=&#34;in-main-window&#34;&gt;In main window&lt;/h3&gt;
+&lt;h2 id=&#34;in-main-window&#34;&gt;In main window&lt;/h2&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -483,22 +485,12 @@
 
 &lt;tr&gt;
 &lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;S&lt;/kbd&gt;&lt;/td&gt;
-&lt;td&gt;Play / pause source text speaking&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;G&lt;/kbd&gt;&lt;/td&gt;
-&lt;td&gt;Stop source text speaking&lt;/td&gt;
+&lt;td&gt;Speak source / pause text speaking&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Shift&lt;/kbd&gt; + &lt;kbd&gt;S&lt;/kbd&gt;&lt;/td&gt;
-&lt;td&gt;Play / pause translation speaking&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Shift&lt;/kbd&gt; + &lt;kbd&gt;D&lt;/kbd&gt;&lt;/td&gt;
-&lt;td&gt;Stop translation speaking&lt;/td&gt;
+&lt;td&gt;Speak translation / pause text speaking&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -507,6 +499,32 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+
+&lt;h2 id=&#34;d-bus-api&#34;&gt;D-Bus API&lt;/h2&gt;
+
+&lt;p&gt;Currently available only for &lt;a href=&#34;#global&#34;&gt;global shortcuts&lt;/a&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;io.crow_translate.CrowTranslate
+└── /io/crow_translate/CrowTranslate/MainWindow
+    ├── method void io.crow_translate.CrowTranslate.MainWindow.copyTranslatedSelection()
+    ├── method void io.crow_translate.CrowTranslate.MainWindow.open()
+    ├── method void io.crow_translate.CrowTranslate.MainWindow.speakSelection()
+    ├── method void io.crow_translate.CrowTranslate.MainWindow.speakTranslatedSelection()
+    ├── method void io.crow_translate.CrowTranslate.MainWindow.stopSpeaking()
+    └── method void io.crow_translate.CrowTranslate.MainWindow.translateSelection()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;For example, you can show main window using &lt;code&gt;dbus-send&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;dbus-send --type=method_call --dest=io.crow_translate.CrowTranslate /io/crow_translate/CrowTranslate/MainWindow io.crow_translate.CrowTranslate.MainWindow.open
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Or via &lt;code&gt;qdbus&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;qdbus io.crow_translate.CrowTranslate /io/crow_translate/CrowTranslate/MainWindow io.crow_translate.CrowTranslate.MainWindow.open
+# or shorter
+qdbus io.crow_translate.CrowTranslate /io/crow_translate/CrowTranslate/MainWindow open
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
