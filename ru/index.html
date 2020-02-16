@@ -785,15 +785,44 @@
       <h1>Установка</h1>
       
       <h2 id="windows">Windows</h2>
-<p>Вы можете скачать установщик или архив со страницы <a href="https://github.com/crow-translate/crow-translate/releases/latest">релизов</a>.</p>
-<p>Вы также можете установить <code>crow-translate</code> из <a href="https://scoop.sh">scoop</a>.</p>
+<p>📦 <a href="https://github.com/crow-translate/crow-translate/releases/latest">Страница релизов</a></p>
+<p>📦 <a href="https://github.com/lukesampson/scoop-extras/blob/master/bucket/crow-translate.json">Пакет Scoop</a></p>
+<pre><code class="language-bash">sudo scoop install crow-translate -g
+</code></pre>
 <h2 id="linux">Linux</h2>
-<h3 id="pacman-based-arch-linux-manjaro-chakra-etc">Pacman-based (Arch Linux, Manjaro, Chakra etc.)</h3>
-<p>Вы можете установить <a href="https://aur.archlinux.org/packages/crow-translate">crow-translate</a> или <a href="https://aur.archlinux.org/packages/crow-translate-git">crow-translate-git</a> из AUR.</p>
-<h3 id="apt-based-debian-ubuntu-mint-etc">APT-based (Debian, Ubuntu, Mint etc.)</h3>
-<p>Пакет доступен на странице <a href="https://github.com/crow-translate/crow-translate/releases/latest">релизов</a>.</p>
-<h3 id="rpm-based-fedora-rhel-centos-etc">RPM-based (Fedora, RHEL, CentOS etc.)</h3>
-<p>Вы можете установить пакет с <a href="https://copr.fedorainfracloud.org/coprs/faezebax/crow-translate">Fedora Copr</a>.</p>
+<h3 id="arch-linux-manjaro-chakra-etc">Arch Linux, Manjaro, Chakra, etc</h3>
+<p>📦 <a href="https://aur.archlinux.org/packages/crow-translate">Стабильная версия в AUR</a></p>
+<pre><code class="language-bash">git clone https://aur.archlinux.org/crow-translate.git
+cd crow-translate
+makepkg -si
+</code></pre>
+<p>📦 <a href="https://aur.archlinux.org/packages/crow-translate-git">Git-версия в AUR</a></p>
+<pre><code class="language-bash">git clone https://aur.archlinux.org/crow-translate-git.git
+cd crow-translate-git
+makepkg -si
+</code></pre>
+<h3 id="debian-ubuntu-mint-etc">Debian, Ubuntu, Mint, etc</h3>
+<p>📦 <a href="https://github.com/crow-translate/crow-translate/releases/latest">Страница релизов</a></p>
+<h3 id="fedora">Fedora</h3>
+<p>📦 <a href="https://copr.fedorainfracloud.org/coprs/faezebax/crow-translate">Fedora Copr</a></p>
+<pre><code class="language-bash">sudo dnf copr enable faezebax/crow-translate
+sudo dnf install crow-translate
+</code></pre>
+<h3 id="centos-rhel">CentOS, RHEL</h3>
+<p>📦 <a href="https://copr.fedorainfracloud.org/coprs/faezebax/crow-translate">Fedora Copr</a></p>
+<pre><code class="language-bash">sudo yum copr enable faezebax/crow-translate
+sudo yum install crow-translate
+</code></pre>
+<h3 id="opensuse-tumbleweed">openSUSE Tumbleweed</h3>
+<p>📦 <a href="https://software.opensuse.org/package/crow-translate">Репозиторий Tumbleweed</a></p>
+<pre><code class="language-bash">sudo zypper install crow-translate
+</code></pre>
+<h3 id="opensuse-leap">openSUSE Leap</h3>
+<p>📦 <a href="https://software.opensuse.org/package/crow-translate">Open Build Service</a></p>
+<h3 id="solus">Solus</h3>
+<p>📦 <a href="https://dev.getsol.us/source/crow-translate">Репозиторий Solus</a></p>
+<pre><code class="language-bash">sudo eopkg it crow-translate
+</code></pre>
 
     </div>
   
