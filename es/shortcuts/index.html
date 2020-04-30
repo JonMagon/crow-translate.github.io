@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru-ru">
+<html lang="es-es">
 
 <head>
 
@@ -24,14 +24,15 @@
   
     
   
-  <meta name="description" content="Простой и легковесный переводчик, который позволяет переводить и озвучивать текст с помощью Google, Yandex и Bing.">
+  <meta name="description" content="Se pueden cambiar en la sección de ajustes. Algunas combinaciones de teclas pueden no estar disponibles debido a las limitaciones con el sistema operativo.
+Wayland no admite el registro de atajos de teclados globales, pero se puede utilizar D-Bus para vincular acciones en la configuración del sistema. Para entornos de escritorio que admitan acciones de aplicaciones adicionales (KDE por ejemplo) los verás predefinidos en los ajustes de atajos de teclado del sistema.">
 
   
-  <link rel="alternate" hreflang="en" href="/categories/">
+  <link rel="alternate" hreflang="en" href="/shortcuts/">
   
-  <link rel="alternate" hreflang="es" href="/es/categories/">
+  <link rel="alternate" hreflang="ru" href="/ru/shortcuts/">
   
-  <link rel="alternate" hreflang="ru-ru" href="/ru/categories/">
+  <link rel="alternate" hreflang="es-es" href="/es/shortcuts/">
 
   
 
@@ -208,14 +209,12 @@
 
 
   
-  <link rel="alternate" href="/ru/categories/index.xml" type="application/rss+xml" title="Crow Translate">
-  
 
-  <link rel="manifest" href="/ru/index.webmanifest">
+  <link rel="manifest" href="/es/index.webmanifest">
   <link rel="icon" type="image/png" href="/images/icon_hu4a2f5a1205585471e01bf5335ce8ea91_49484_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu4a2f5a1205585471e01bf5335ce8ea91_49484_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="/ru/categories/">
+  <link rel="canonical" href="/es/shortcuts/">
 
   
   
@@ -228,11 +227,13 @@
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Crow Translate">
-  <meta property="og:url" content="/ru/categories/">
-  <meta property="og:title" content="Categories | Crow Translate">
-  <meta property="og:description" content="Простой и легковесный переводчик, который позволяет переводить и озвучивать текст с помощью Google, Yandex и Bing."><meta property="og:image" content="/img/logo.svg">
-  <meta property="twitter:image" content="/img/logo.svg"><meta property="og:locale" content="ru-ru">
+  <meta property="og:url" content="/es/shortcuts/">
+  <meta property="og:title" content="Atajos de teclado | Crow Translate">
+  <meta property="og:description" content="Se pueden cambiar en la sección de ajustes. Algunas combinaciones de teclas pueden no estar disponibles debido a las limitaciones con el sistema operativo.
+Wayland no admite el registro de atajos de teclados globales, pero se puede utilizar D-Bus para vincular acciones en la configuración del sistema. Para entornos de escritorio que admitan acciones de aplicaciones adicionales (KDE por ejemplo) los verás predefinidos en los ajustes de atajos de teclado del sistema."><meta property="og:image" content="/img/logo.svg">
+  <meta property="twitter:image" content="/img/logo.svg"><meta property="og:locale" content="es-es">
   
+    
     
   
 
@@ -240,17 +241,19 @@
 
 
 
-
   
 
 
   
 
 
+  
 
 
 
-  <title>Categories | Crow Translate</title>
+
+
+  <title>Atajos de teclado | Crow Translate</title>
 
 </head>
 
@@ -262,7 +265,7 @@
 
       <div class="row no-gutters justify-content-between mb-3">
         <div class="col-6">
-          <h1>Поиск</h1>
+          <h1>Buscar</h1>
         </div>
         <div class="col-6 col-search-close">
           <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
@@ -295,20 +298,20 @@
     
     
     <div class="d-none d-lg-inline-flex">
-      <a class="navbar-brand" href="/ru">Crow Translate</a>
+      <a class="navbar-brand" href="/es">Crow Translate</a>
     </div>
     
 
     
     <button type="button" class="navbar-toggler" data-toggle="collapse"
-            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Переключить навигацию">
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Barra de navegación">
     <span><i class="fas fa-bars"></i></span>
     </button>
     
 
     
     <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-      <a class="navbar-brand" href="/ru">Crow Translate</a>
+      <a class="navbar-brand" href="/es">Crow Translate</a>
     </div>
     
 
@@ -336,7 +339,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/ru/screenshots"><i class="fas fa-images"></i> <span>Скриншоты</span></a>
+          <a class="nav-link " href="/es/screenshots"><i class="fas fa-images"></i> <span>Capturas de pantalla</span></a>
         </li>
 
         
@@ -358,7 +361,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/ru/shortcuts"><i class="fas fa-keyboard"></i> <span>Горячие клавиши</span></a>
+          <a class="nav-link  active" href="/es/shortcuts"><i class="fas fa-keyboard"></i> <span>Atajos de teclado</span></a>
         </li>
 
         
@@ -380,7 +383,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/ru/commands"><i class="fas fa-terminal"></i> <span>Команды</span></a>
+          <a class="nav-link " href="/es/commands"><i class="fas fa-terminal"></i> <span>Comandos</span></a>
         </li>
 
         
@@ -404,7 +407,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="https://github.com/crow-translate/crow-translate/blob/master/CHANGELOG.md" target="_blank" rel="noopener"><i class="fas fa-newspaper"></i> <span>Изменения</span></a>
+          <a class="nav-link " href="https://github.com/crow-translate/crow-translate/blob/master/CHANGELOG.md" target="_blank" rel="noopener"><i class="fas fa-newspaper"></i> <span>Novedades</span></a>
         </li>
 
         
@@ -459,19 +462,19 @@
       
       <li class="nav-item dropdown i18n-dropdown">
         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
-          <i class="fas fa-globe mr-1" aria-hidden="true"></i><span class="d-none d-lg-inline">Русский</span>
+          <i class="fas fa-globe mr-1" aria-hidden="true"></i><span class="d-none d-lg-inline">Español</span>
         </a>
         <div class="dropdown-menu">
           <div class="dropdown-item i18n-active font-weight-bold">
-            <span>Русский</span>
+            <span>Español</span>
           </div>
           
-          <a class="dropdown-item" href="/categories/">
+          <a class="dropdown-item" href="/shortcuts/">
             <span>English</span>
           </a>
           
-          <a class="dropdown-item" href="/es/categories/">
-            <span>Español</span>
+          <a class="dropdown-item" href="/ru/shortcuts/">
+            <span>Русский</span>
           </a>
           
         </div>
@@ -484,45 +487,188 @@
 </nav>
 
 
-  
-
-
-
-
-
-
-
-
-
-
-
+  <article class="article">
 
   
 
+
+
+
+
+
+
+
+
+
+
+
+  
+
   
   
+  
+<div class="article-container pt-3">
+  <h1>Atajos de teclado</h1>
+
+  
+
   
     
-  
-<div class="universal-wrapper pt-3">
-  <h1>Categories</h1>
+
+
+<div class="article-metadata">
 
   
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   
 </div>
 
 
 
-<div class="universal-wrapper">
-  
+  <div class="article-container">
 
-  
-  
+    <div class="article-style">
+      <p>Se pueden cambiar en la sección de ajustes. Algunas combinaciones de teclas pueden no estar disponibles debido a las limitaciones con el sistema operativo.</p>
+<p>Wayland no admite el registro de atajos de teclados globales, pero se puede utilizar <a href="#api-d-bus">D-Bus</a> para vincular acciones en la configuración del sistema. Para entornos de escritorio que admitan <a href="https://specifications.freedesktop.org/desktop-entry-spec-latest.html#extra-actions">acciones de aplicaciones adicionales</a> (KDE por ejemplo) los verás predefinidos en los ajustes de atajos de teclado del sistema. También puede utilizarlos para sesiones X11, pero necesitará inhibir el registro de atajos de teclado en los ajustes de la aplicación para evitar conflictos.</p>
+<h2 id="global">Global</h2>
+<table>
+<thead>
+<tr>
+<th>Combinación de teclas</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>E</kbd></td>
+<td>Traducir el texto seleccionado</td>
+</tr>
+<tr>
+<td><kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>S</kbd></td>
+<td>Reproducir hablando el texto seleccionado</td>
+</tr>
+<tr>
+<td><kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>F</kbd></td>
+<td>Reproducir hablando la traducción del texto seleccionado</td>
+</tr>
+<tr>
+<td><kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>G</kbd></td>
+<td>Detener la reproducción hablada</td>
+</tr>
+<tr>
+<td><kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>C</kbd></td>
+<td>Mostrar la ventana principal</td>
+</tr>
+</tbody>
+</table>
+<h2 id="en-la-pantalla-principal">En la pantalla principal</h2>
+<table>
+<thead>
+<tr>
+<th>Combinación de teclas</th>
+<th>Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><kbd>Ctrl</kbd> + <kbd>Enter</kbd></td>
+<td>Traducir</td>
+</tr>
+<tr>
+<td><kbd>Ctrl</kbd> + <kbd>Q</kbd></td>
+<td>Cerrar la ventana</td>
+</tr>
+<tr>
+<td><kbd>Ctrl</kbd> + <kbd>S</kbd></td>
+<td>Reproducir / pausar el texto hablado del texto original</td>
+</tr>
+<tr>
+<td><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd></td>
+<td>Reproducir / pausar el texo hablado de la traducción</td>
+</tr>
+<tr>
+<td><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>C</kbd></td>
+<td>Copiar la traducción a la portapapeles</td>
+</tr>
+</tbody>
+</table>
+<h2 id="api-d-bus">API D-Bus</h2>
+<p>Actualmente están solo disponibles para <a href="global">atajos de teclado globales</a>.</p>
+<pre><code>io.crow_translate.CrowTranslate
+└── /io/crow_translate/CrowTranslate/MainWindow
+    ├── method void io.crow_translate.CrowTranslate.MainWindow.copyTranslatedSelection()
+    ├── method void io.crow_translate.CrowTranslate.MainWindow.open()
+    ├── method void io.crow_translate.CrowTranslate.MainWindow.speakSelection()
+    ├── method void io.crow_translate.CrowTranslate.MainWindow.speakTranslatedSelection()
+    ├── method void io.crow_translate.CrowTranslate.MainWindow.stopSpeaking()
+    └── method void io.crow_translate.CrowTranslate.MainWindow.translateSelection()
+</code></pre>
+<p>Por ejemplo, puedes mostrar la pantalla principal utilizando <code>dbus-send</code>:</p>
+<pre><code class="language-bash">dbus-send --type=method_call --dest=io.crow_translate.CrowTranslate /io/crow_translate/CrowTranslate/MainWindow io.crow_translate.CrowTranslate.MainWindow.open
+</code></pre>
+<p>O mediante <code>qdbus</code>:</p>
+<pre><code class="language-bash">qdbus io.crow_translate.CrowTranslate /io/crow_translate/CrowTranslate/MainWindow io.crow_translate.CrowTranslate.MainWindow.open
+# o de manera más reducida
+qdbus io.crow_translate.CrowTranslate /io/crow_translate/CrowTranslate/MainWindow open
+</code></pre>
 
-  
+    </div>
 
-</div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
 
       
 
@@ -606,7 +752,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title">Процитировать</h5>
+        <h5 class="modal-title">Citar</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -616,10 +762,10 @@
       </div>
       <div class="modal-footer">
         <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
-          <i class="fas fa-copy"></i> Копия
+          <i class="fas fa-copy"></i> Copiar
         </a>
         <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
-          <i class="fas fa-download"></i> Скачать
+          <i class="fas fa-download"></i> Descargar
         </a>
         <div id="modal-error"></div>
       </div>

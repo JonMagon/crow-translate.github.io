@@ -11,6 +11,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="es"
+                href="/es/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="ru"
                 href="/ru/categories/"
                 />
@@ -22,6 +27,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -39,6 +49,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="es"
+                href="/es/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="ru"
                 href="/ru/tags/"
                 />
@@ -46,6 +61,11 @@
   
   <url>
     <loc>/ru/shortcuts/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/shortcuts/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -67,6 +87,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="es"
+                href="/es/commands/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="ru"
                 href="/ru/commands/"
                 />
@@ -74,6 +99,11 @@
   
   <url>
     <loc>/ru/screenshots/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/screenshots/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"

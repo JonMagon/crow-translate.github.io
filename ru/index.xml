@@ -228,8 +228,8 @@ qdbus io.crow_translate.CrowTranslate /io/crow_translate/CrowTranslate/MainWindo
       
     
   
-  &lt;a data-fancybox=&#34;gallery-Linux Plasma&#34; data-caption=&#34;Перевод предложения&#34; href=&#34;/img/screenshots/linux-plasma/sentense.png&#34;&gt;
-    &lt;img data-src=&#34;/img/screenshots/linux-plasma/sentense.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-Linux Plasma&#34; data-caption=&#34;Перевод предложения&#34; href=&#34;/img/screenshots/linux-plasma/sentence.png&#34;&gt;
+    &lt;img data-src=&#34;/img/screenshots/linux-plasma/sentence.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
   
@@ -297,8 +297,8 @@ qdbus io.crow_translate.CrowTranslate /io/crow_translate/CrowTranslate/MainWindo
       
     
   
-  &lt;a data-fancybox=&#34;gallery-Windows 10&#34; data-caption=&#34;Перевод предложения&#34; href=&#34;/img/screenshots/windows/sentense.png&#34;&gt;
-    &lt;img data-src=&#34;/img/screenshots/windows/sentense.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-Windows 10&#34; data-caption=&#34;Перевод предложения&#34; href=&#34;/img/screenshots/windows/sentence.png&#34;&gt;
+    &lt;img data-src=&#34;/img/screenshots/windows/sentence.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
   

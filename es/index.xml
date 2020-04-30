@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Crow Translate</title>
+    <link>/es/</link>
+      <atom:link href="/es/index.xml" rel="self" type="application/rss+xml" />
+    <description>Crow Translate</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><copyright>© 2018-2020 Hennadii Chernyshchyk</copyright>
+    <image>
+      <url>/img/logo.svg</url>
+      <title>Crow Translate</title>
+      <link>/es/</link>
+    </image>
+    
+    <item>
+      <title>Atajos de teclado</title>
+      <link>/es/shortcuts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/es/shortcuts/</guid>
+      <description>&lt;p&gt;Se pueden cambiar en la sección de ajustes. Algunas combinaciones de teclas pueden no estar disponibles debido a las limitaciones con el sistema operativo.&lt;/p&gt;
+&lt;p&gt;Wayland no admite el registro de atajos de teclados globales, pero se puede utilizar &lt;a href=&#34;#api-d-bus&#34;&gt;D-Bus&lt;/a&gt; para vincular acciones en la configuración del sistema. Para entornos de escritorio que admitan &lt;a href=&#34;https://specifications.freedesktop.org/desktop-entry-spec-latest.html#extra-actions&#34;&gt;acciones de aplicaciones adicionales&lt;/a&gt; (KDE por ejemplo) los verás predefinidos en los ajustes de atajos de teclado del sistema. También puede utilizarlos para sesiones X11, pero necesitará inhibir el registro de atajos de teclado en los ajustes de la aplicación para evitar conflictos.&lt;/p&gt;
+&lt;h2 id=&#34;global&#34;&gt;Global&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Combinación de teclas&lt;/th&gt;
+&lt;th&gt;Descripción&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;E&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Traducir el texto seleccionado&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;S&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Reproducir hablando el texto seleccionado&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;F&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Reproducir hablando la traducción del texto seleccionado&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;G&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Detener la reproducción hablada&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;C&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Mostrar la ventana principal&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;en-la-pantalla-principal&#34;&gt;En la pantalla principal&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Combinación de teclas&lt;/th&gt;
+&lt;th&gt;Descripción&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Enter&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Traducir&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Q&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Cerrar la ventana&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;S&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Reproducir / pausar el texto hablado del texto original&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Shift&lt;/kbd&gt; + &lt;kbd&gt;S&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Reproducir / pausar el texo hablado de la traducción&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Shift&lt;/kbd&gt; + &lt;kbd&gt;C&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Copiar la traducción a la portapapeles&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;api-d-bus&#34;&gt;API D-Bus&lt;/h2&gt;
+&lt;p&gt;Actualmente están solo disponibles para &lt;a href=&#34;global&#34;&gt;atajos de teclado globales&lt;/a&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;io.crow_translate.CrowTranslate
+└── /io/crow_translate/CrowTranslate/MainWindow
+    ├── method void io.crow_translate.CrowTranslate.MainWindow.copyTranslatedSelection()
+    ├── method void io.crow_translate.CrowTranslate.MainWindow.open()
+    ├── method void io.crow_translate.CrowTranslate.MainWindow.speakSelection()
+    ├── method void io.crow_translate.CrowTranslate.MainWindow.speakTranslatedSelection()
+    ├── method void io.crow_translate.CrowTranslate.MainWindow.stopSpeaking()
+    └── method void io.crow_translate.CrowTranslate.MainWindow.translateSelection()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Por ejemplo, puedes mostrar la pantalla principal utilizando &lt;code&gt;dbus-send&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;dbus-send --type=method_call --dest=io.crow_translate.CrowTranslate /io/crow_translate/CrowTranslate/MainWindow io.crow_translate.CrowTranslate.MainWindow.open
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;O mediante &lt;code&gt;qdbus&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;qdbus io.crow_translate.CrowTranslate /io/crow_translate/CrowTranslate/MainWindow io.crow_translate.CrowTranslate.MainWindow.open
+# o de manera más reducida
+qdbus io.crow_translate.CrowTranslate /io/crow_translate/CrowTranslate/MainWindow open
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Capturas de pantalla</title>
+      <link>/es/screenshots/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/es/screenshots/</guid>
+      <description>&lt;h3 id=&#34;plasma-linux&#34;&gt;Plasma Linux&lt;/h3&gt;
+
+
+
+
+
+
+
+
+  
+  
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-Plasma Linux&#34; data-caption=&#34;Pantalla principal&#34; href=&#34;/img/screenshots/linux-plasma/main.png&#34;&gt;
+    &lt;img data-src=&#34;/img/screenshots/linux-plasma/main.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-Plasma Linux&#34; data-caption=&#34;Ventana emergente&#34; href=&#34;/img/screenshots/linux-plasma/popup.png&#34;&gt;
+    &lt;img data-src=&#34;/img/screenshots/linux-plasma/popup.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-Plasma Linux&#34; data-caption=&#34;Traducción de frase&#34; href=&#34;/img/screenshots/linux-plasma/sentence.png&#34;&gt;
+    &lt;img data-src=&#34;/img/screenshots/linux-plasma/sentence.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-Plasma Linux&#34; data-caption=&#34;Ajustes&#34; href=&#34;/img/screenshots/linux-plasma/settings.png&#34;&gt;
+    &lt;img data-src=&#34;/img/screenshots/linux-plasma/settings.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+&lt;/div&gt;
+&lt;h3 id=&#34;windows-10&#34;&gt;Windows 10&lt;/h3&gt;
+
+
+
+
+
+
+
+
+  
+  
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-Windows 10&#34; data-caption=&#34;Pantalla principal&#34; href=&#34;/img/screenshots/windows/main.png&#34;&gt;
+    &lt;img data-src=&#34;/img/screenshots/windows/main.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-Windows 10&#34; data-caption=&#34;Ventana emergente&#34; href=&#34;/img/screenshots/windows/popup.png&#34;&gt;
+    &lt;img data-src=&#34;/img/screenshots/windows/popup.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-Windows 10&#34; data-caption=&#34;Traducción de frase&#34; href=&#34;/img/screenshots/windows/sentence.png&#34;&gt;
+    &lt;img data-src=&#34;/img/screenshots/windows/sentence.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-Windows 10&#34; data-caption=&#34;Ajustes&#34; href=&#34;/img/screenshots/windows/settings.png&#34;&gt;
+    &lt;img data-src=&#34;/img/screenshots/windows/settings.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Comandos para la línea de comandos</title>
+      <link>/es/commands/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/es/commands/</guid>
+      <description>&lt;p&gt;Este programa también tiene interfaz para la consola.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Utilización:&lt;/strong&gt; &lt;code&gt;crow [opciones] texto&lt;/code&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Opción&lt;/th&gt;
+&lt;th&gt;Descripción&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;-h, --help&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Muestra la ayuda&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;-v, --version&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Muestra la información de la versión&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;-c, --codes&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Muestra los códigos de los idiomas&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;-a, --audio-only&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Muestra el texto solo para reproducir hablando cuando se utiliza &lt;code&gt;--speak-translation&lt;/code&gt; o &lt;code&gt;--speak-source&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;-s, --source &amp;lt;code&amp;gt;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Especifica el idioma original (de manera predeterminada, el motor de traducción intentará determinar el idioma por su cuenta)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;-t, --translation &amp;lt;code&amp;gt;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Especifica el(los) idioma(s) de traducción separados por &amp;lsquo;+&amp;rsquo; (de manera predeterminada, es utilizado el idioma del sistema)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;-l, --locale &amp;lt;code&amp;gt;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Especifica el idioma del traductor (de manera predeterminada, es utilizado el idioma del sistema)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;-e, --engine &amp;lt;engine&amp;gt;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Especifica el motor de traducción del traductor (&amp;lsquo;google&amp;rsquo;, &amp;lsquo;yandex&amp;rsquo; o &amp;lsquo;bing&amp;rsquo;), Google es utilizado de manera predeterminada&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;-p, --speak-translation&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Reproduce hablando la traducción&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;-u, --speak-source&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Reproduce hablando el texto origen&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;-f, --file&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Lee el texto origen desde un archivo. Los argumentos serán interpretados como las rutas del archivo&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;-i, --stdin&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Añade los datos de la entrada estándar (stdin) al texto origen&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Nota:&lt;/strong&gt; Si no le pasas argumentos al programa, se lanza la interfaz gráfica.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

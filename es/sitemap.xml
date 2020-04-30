@@ -3,87 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="/ru/categories/"
-                />
+    <loc>/es/shortcuts/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/categories/"
-                />
-  </url>
-  
-  <url>
-    <loc>/commands/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/commands/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="/ru/commands/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/commands/"
-                />
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="/ru/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/"
-                />
-  </url>
-  
-  <url>
-    <loc>/screenshots/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/screenshots/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="/ru/screenshots/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/screenshots/"
-                />
-  </url>
-  
-  <url>
-    <loc>/shortcuts/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/shortcuts/"
+                href="/shortcuts/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -92,17 +16,93 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="/shortcuts/"
+                hreflang="es"
+                href="/es/shortcuts/"
                 />
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>/es/screenshots/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/screenshots/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/screenshots/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/tags/"
+                href="/es/screenshots/"
+                />
+  </url>
+  
+  <url>
+    <loc>/es/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>/es/commands/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/commands/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/commands/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/commands/"
+                />
+  </url>
+  
+  <url>
+    <loc>/es/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="/ru/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/"
+                />
+  </url>
+  
+  <url>
+    <loc>/es/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -111,8 +111,8 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="/tags/"
+                hreflang="es"
+                href="/es/tags/"
                 />
   </url>
   

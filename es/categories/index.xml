@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories | Crow Translate</title>
+    <link>/es/categories/</link>
+      <atom:link href="/es/categories/index.xml" rel="self" type="application/rss+xml" />
+    <description>Categories</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>es-es</language><copyright>© 2018-2020 Hennadii Chernyshchyk</copyright>
+    <image>
+      <url>/img/logo.svg</url>
+      <title>Categories</title>
+      <link>/es/categories/</link>
+    </image>
+    
+  </channel>
+</rss>
