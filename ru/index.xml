@@ -18,7 +18,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/ru/shortcuts/</guid>
       <description>&lt;p&gt;Вы можете изменить эти горячие клавиши в настройках. Некоторые комбинации клавиш могут быть недоступны из-за ограничений ОС.&lt;/p&gt;
-&lt;p&gt;Wayland не поддерживает глобальные горячие клавиши, но вы можете использовать &lt;a href=&#34;#d-bus-api&#34;&gt;D-Bus&lt;/a&gt; для назначения действий в настройках системы. Для окружений рабочего стола, которые поддерживают &lt;a href=&#34;https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html#extra-actions&#34;&gt;дополнительные действия приложений&lt;/a&gt; (KDE, например) вы увидите уже предопределенные горячие клавиши в системных настройках. Вы также можете использовать их для X11 сессии, но вам нужно отключить регистрацию глобальных горячих клавиш в настройках приложения для избежания конфликтов.&lt;/p&gt;
+&lt;p&gt;Wayland не поддерживает глобальные горячие клавиши, но вы можете использовать 
+&lt;a href=&#34;#d-bus-api&#34;&gt;D-Bus&lt;/a&gt; для назначения действий в настройках системы. Для окружений рабочего стола, которые поддерживают 
+&lt;a href=&#34;https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html#extra-actions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;дополнительные действия приложений&lt;/a&gt; (KDE, например) вы увидите уже предопределенные горячие клавиши в системных настройках. Вы также можете использовать их для X11 сессии, но вам нужно отключить регистрацию глобальных горячих клавиш в настройках приложения для избежания конфликтов.&lt;/p&gt;
 &lt;h2 id=&#34;глобальные&#34;&gt;Глобальные&lt;/h2&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -82,7 +84,8 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h2 id=&#34;d-bus-api&#34;&gt;D-Bus API&lt;/h2&gt;
-&lt;p&gt;В данный момент доступно только для &lt;a href=&#34;#%D0%B3%D0%BB%D0%BE%D0%B1%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5&#34;&gt;глобальных горячих клавиш&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;В данный момент доступно только для 
+&lt;a href=&#34;#%d0%b3%d0%bb%d0%be%d0%b1%d0%b0%d0%bb%d1%8c%d0%bd%d1%8b%d0%b5&#34;&gt;глобальных горячих клавиш&lt;/a&gt;.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;io.crow_translate.CrowTranslate
 └── /io/crow_translate/CrowTranslate/MainWindow
     ├── method void io.crow_translate.CrowTranslate.MainWindow.copyTranslatedSelection()
@@ -206,8 +209,9 @@ qdbus io.crow_translate.CrowTranslate /io/crow_translate/CrowTranslate/MainWindo
       
     
   
+  
   &lt;a data-fancybox=&#34;gallery-Linux Plasma&#34; data-caption=&#34;Главное окно&#34; href=&#34;/img/screenshots/linux-plasma/main.png&#34;&gt;
-    &lt;img data-src=&#34;/img/screenshots/linux-plasma/main.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
+    &lt;img data-src=&#34;/img/screenshots/linux-plasma/main.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
   
@@ -216,9 +220,10 @@ qdbus io.crow_translate.CrowTranslate /io/crow_translate/CrowTranslate/MainWindo
     
       
     
+  
   
   &lt;a data-fancybox=&#34;gallery-Linux Plasma&#34; data-caption=&#34;Всплывающее окно&#34; href=&#34;/img/screenshots/linux-plasma/popup.png&#34;&gt;
-    &lt;img data-src=&#34;/img/screenshots/linux-plasma/popup.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
+    &lt;img data-src=&#34;/img/screenshots/linux-plasma/popup.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
   
@@ -227,9 +232,10 @@ qdbus io.crow_translate.CrowTranslate /io/crow_translate/CrowTranslate/MainWindo
     
       
     
+  
   
   &lt;a data-fancybox=&#34;gallery-Linux Plasma&#34; data-caption=&#34;Перевод предложения&#34; href=&#34;/img/screenshots/linux-plasma/sentence.png&#34;&gt;
-    &lt;img data-src=&#34;/img/screenshots/linux-plasma/sentence.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
+    &lt;img data-src=&#34;/img/screenshots/linux-plasma/sentence.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
   
@@ -239,8 +245,9 @@ qdbus io.crow_translate.CrowTranslate /io/crow_translate/CrowTranslate/MainWindo
       
     
   
+  
   &lt;a data-fancybox=&#34;gallery-Linux Plasma&#34; data-caption=&#34;Настройки&#34; href=&#34;/img/screenshots/linux-plasma/settings.png&#34;&gt;
-    &lt;img data-src=&#34;/img/screenshots/linux-plasma/settings.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
+    &lt;img data-src=&#34;/img/screenshots/linux-plasma/settings.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
   
@@ -275,8 +282,9 @@ qdbus io.crow_translate.CrowTranslate /io/crow_translate/CrowTranslate/MainWindo
       
     
   
+  
   &lt;a data-fancybox=&#34;gallery-Windows 10&#34; data-caption=&#34;Главное окно&#34; href=&#34;/img/screenshots/windows/main.png&#34;&gt;
-    &lt;img data-src=&#34;/img/screenshots/windows/main.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
+    &lt;img data-src=&#34;/img/screenshots/windows/main.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
   
@@ -285,9 +293,10 @@ qdbus io.crow_translate.CrowTranslate /io/crow_translate/CrowTranslate/MainWindo
     
       
     
+  
   
   &lt;a data-fancybox=&#34;gallery-Windows 10&#34; data-caption=&#34;Всплывающее окно&#34; href=&#34;/img/screenshots/windows/popup.png&#34;&gt;
-    &lt;img data-src=&#34;/img/screenshots/windows/popup.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
+    &lt;img data-src=&#34;/img/screenshots/windows/popup.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
   
@@ -296,9 +305,10 @@ qdbus io.crow_translate.CrowTranslate /io/crow_translate/CrowTranslate/MainWindo
     
       
     
+  
   
   &lt;a data-fancybox=&#34;gallery-Windows 10&#34; data-caption=&#34;Перевод предложения&#34; href=&#34;/img/screenshots/windows/sentence.png&#34;&gt;
-    &lt;img data-src=&#34;/img/screenshots/windows/sentence.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
+    &lt;img data-src=&#34;/img/screenshots/windows/sentence.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
   
@@ -308,8 +318,9 @@ qdbus io.crow_translate.CrowTranslate /io/crow_translate/CrowTranslate/MainWindo
       
     
   
+  
   &lt;a data-fancybox=&#34;gallery-Windows 10&#34; data-caption=&#34;Настройки&#34; href=&#34;/img/screenshots/windows/settings.png&#34;&gt;
-    &lt;img data-src=&#34;/img/screenshots/windows/settings.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
+    &lt;img data-src=&#34;/img/screenshots/windows/settings.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
   
