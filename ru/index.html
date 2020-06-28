@@ -795,15 +795,17 @@
     <div class="col-lg-12">
       <h1>Установка</h1>
       
-      <h2 id="windows">Windows</h2>
-<p>📦 
-<a href="https://github.com/crow-translate/crow-translate/releases/latest" target="_blank" rel="noopener">Страница релизов</a></p>
+      <h2 id="скачать">Скачать</h2>
+<p>Загрузки доступны на странице 
+<a href="https://github.com/crow-translate/crow-translate/releases/latest" target="_blank" rel="noopener">Релизов</a>.</p>
+<h2 id="пакеты">Пакеты</h2>
+<h3 id="windows">Windows</h3>
 <p>📦 
 <a href="https://github.com/lukesampson/scoop-extras/blob/master/bucket/crow-translate.json" target="_blank" rel="noopener">Пакет Scoop</a></p>
 <pre><code class="language-bash">sudo scoop install crow-translate -g
 </code></pre>
-<h2 id="linux">Linux</h2>
-<h3 id="arch-linux-manjaro-chakra-etc">Arch Linux, Manjaro, Chakra, etc</h3>
+<h3 id="linux">Linux</h3>
+<h4 id="arch-linux-manjaro-chakra-etc">Arch Linux, Manjaro, Chakra, etc</h4>
 <p>📦 
 <a href="https://aur.archlinux.org/packages/crow-translate" target="_blank" rel="noopener">Стабильная версия в AUR</a></p>
 <pre><code class="language-bash">git clone https://aur.archlinux.org/crow-translate.git
@@ -816,30 +818,42 @@ makepkg -si
 cd crow-translate-git
 makepkg -si
 </code></pre>
-<h3 id="debian-ubuntu-mint-etc">Debian, Ubuntu, Mint, etc</h3>
 <p>📦 
-<a href="https://github.com/crow-translate/crow-translate/releases/latest" target="_blank" rel="noopener">Страница релизов</a></p>
-<h3 id="fedora">Fedora</h3>
+<a href="https://lonewolf.pedrohlc.com/chaotic-aur" target="_blank" rel="noopener">Репозиторий Chaotic-AUR</a></p>
+<pre><code class="language-bash">sudo pacman -S crow-translate
+</code></pre>
+<h4 id="fedora">Fedora</h4>
 <p>📦 
-<a href="https://copr.fedorainfracloud.org/coprs/faezebax/crow-translate" target="_blank" rel="noopener">Fedora Copr</a></p>
-<pre><code class="language-bash">sudo dnf copr enable faezebax/crow-translate
+<a href="https://copr.fedorainfracloud.org/coprs/carlis/crow-translate" target="_blank" rel="noopener">Fedora Copr</a></p>
+<pre><code class="language-bash">sudo dnf copr enable carlis/crow-translate
 sudo dnf install crow-translate
 </code></pre>
-<h3 id="centos-rhel">CentOS, RHEL</h3>
+<h4 id="centos-rhel">CentOS, RHEL</h4>
 <p>📦 
-<a href="https://copr.fedorainfracloud.org/coprs/faezebax/crow-translate" target="_blank" rel="noopener">Fedora Copr</a></p>
-<pre><code class="language-bash">sudo yum copr enable faezebax/crow-translate
+<a href="https://copr.fedorainfracloud.org/coprs/carlis/crow-translate" target="_blank" rel="noopener">Fedora Copr</a></p>
+<pre><code class="language-bash">sudo yum copr enable carlis/crow-translate
 sudo yum install crow-translate
 </code></pre>
-<h3 id="opensuse-tumbleweed">openSUSE Tumbleweed</h3>
+<h4 id="mageia-7">Mageia 7</h4>
+<p>📦 
+<a href="http://ftp.blogdrake.net" target="_blank" rel="noopener">Репозиторий BlogDrake</a></p>
+<pre><code class="language-bash"># With urpmi
+sudo urpmi urpmi.addmedia --wget --distrib http://ftp.blogdrake.net/mageia/mageia7/x86_64 # Or i586
+sudo urpmi crow-translate
+
+# Or with dnf
+sudo dnf config-manager --add-repo http://ftp.blogdrake.net/mageia/BDK.repo
+sudo dnf install crow-translate
+</code></pre>
+<h4 id="opensuse-tumbleweed">openSUSE Tumbleweed</h4>
 <p>📦 
 <a href="https://software.opensuse.org/package/crow-translate" target="_blank" rel="noopener">Репозиторий Tumbleweed</a></p>
 <pre><code class="language-bash">sudo zypper install crow-translate
 </code></pre>
-<h3 id="opensuse-leap">openSUSE Leap</h3>
+<h4 id="opensuse-leap">openSUSE Leap</h4>
 <p>📦 
 <a href="https://software.opensuse.org/package/crow-translate" target="_blank" rel="noopener">Open Build Service</a></p>
-<h3 id="solus">Solus</h3>
+<h4 id="solus">Solus</h4>
 <p>📦 
 <a href="https://dev.getsol.us/source/crow-translate" target="_blank" rel="noopener">Репозиторий Solus</a></p>
 <pre><code class="language-bash">sudo eopkg it crow-translate
