@@ -565,9 +565,7 @@ Wayland no admite el registro de atajos de teclados globales, pero se puede util
 
     <div class="article-style">
       <p>Se pueden cambiar en la sección de ajustes. Algunas combinaciones de teclas pueden no estar disponibles debido a las limitaciones con el sistema operativo.</p>
-<p>Wayland no admite el registro de atajos de teclados globales, pero se puede utilizar 
-<a href="#api-d-bus">D-Bus</a> para vincular acciones en la configuración del sistema. Para entornos de escritorio que admitan 
-<a href="https://specifications.freedesktop.org/desktop-entry-spec-latest.html#extra-actions" target="_blank" rel="noopener">acciones de aplicaciones adicionales</a> (KDE por ejemplo) los verás predefinidos en los ajustes de atajos de teclado del sistema. También puede utilizarlos para sesiones X11, pero necesitará inhibir el registro de atajos de teclado en los ajustes de la aplicación para evitar conflictos.</p>
+<p>Wayland no admite el registro de atajos de teclados globales, pero se puede utilizar <a href="#api-d-bus">D-Bus</a> para vincular acciones en la configuración del sistema. Para entornos de escritorio que admitan <a href="https://specifications.freedesktop.org/desktop-entry-spec-latest.html#extra-actions">acciones de aplicaciones adicionales</a> (KDE por ejemplo) los verás predefinidos en los ajustes de atajos de teclado del sistema. También puede utilizarlos para sesiones X11, pero necesitará inhibir el registro de atajos de teclado en los ajustes de la aplicación para evitar conflictos.</p>
 <h2 id="global">Global</h2>
 <table>
 <thead>
@@ -634,9 +632,8 @@ Wayland no admite el registro de atajos de teclados globales, pero se puede util
 </tr>
 </tbody>
 </table>
-<h2 id="api-d-bus">API D-Bus</h2>
-<p>Actualmente están solo disponibles para 
-<a href="global">atajos de teclado globales</a>.</p>
+<h2 id="api-dbus">API D-Bus</h2>
+<p>Actualmente están solo disponibles para <a href="global">atajos de teclado globales</a>.</p>
 <pre><code>io.crow_translate.CrowTranslate
 └── /io/crow_translate/CrowTranslate/MainWindow
     ├── method void io.crow_translate.CrowTranslate.MainWindow.copyTranslatedSelection()

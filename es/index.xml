@@ -18,9 +18,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/es/shortcuts/</guid>
       <description>&lt;p&gt;Se pueden cambiar en la sección de ajustes. Algunas combinaciones de teclas pueden no estar disponibles debido a las limitaciones con el sistema operativo.&lt;/p&gt;
-&lt;p&gt;Wayland no admite el registro de atajos de teclados globales, pero se puede utilizar 
-&lt;a href=&#34;#api-d-bus&#34;&gt;D-Bus&lt;/a&gt; para vincular acciones en la configuración del sistema. Para entornos de escritorio que admitan 
-&lt;a href=&#34;https://specifications.freedesktop.org/desktop-entry-spec-latest.html#extra-actions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;acciones de aplicaciones adicionales&lt;/a&gt; (KDE por ejemplo) los verás predefinidos en los ajustes de atajos de teclado del sistema. También puede utilizarlos para sesiones X11, pero necesitará inhibir el registro de atajos de teclado en los ajustes de la aplicación para evitar conflictos.&lt;/p&gt;
+&lt;p&gt;Wayland no admite el registro de atajos de teclados globales, pero se puede utilizar &lt;a href=&#34;#api-d-bus&#34;&gt;D-Bus&lt;/a&gt; para vincular acciones en la configuración del sistema. Para entornos de escritorio que admitan &lt;a href=&#34;https://specifications.freedesktop.org/desktop-entry-spec-latest.html#extra-actions&#34;&gt;acciones de aplicaciones adicionales&lt;/a&gt; (KDE por ejemplo) los verás predefinidos en los ajustes de atajos de teclado del sistema. También puede utilizarlos para sesiones X11, pero necesitará inhibir el registro de atajos de teclado en los ajustes de la aplicación para evitar conflictos.&lt;/p&gt;
 &lt;h2 id=&#34;global&#34;&gt;Global&lt;/h2&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -87,9 +85,8 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id=&#34;api-d-bus&#34;&gt;API D-Bus&lt;/h2&gt;
-&lt;p&gt;Actualmente están solo disponibles para 
-&lt;a href=&#34;global&#34;&gt;atajos de teclado globales&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;api-dbus&#34;&gt;API D-Bus&lt;/h2&gt;
+&lt;p&gt;Actualmente están solo disponibles para &lt;a href=&#34;global&#34;&gt;atajos de teclado globales&lt;/a&gt;.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;io.crow_translate.CrowTranslate
 └── /io/crow_translate/CrowTranslate/MainWindow
     ├── method void io.crow_translate.CrowTranslate.MainWindow.copyTranslatedSelection()

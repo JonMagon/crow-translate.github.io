@@ -18,10 +18,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/ru/shortcuts/</guid>
       <description>&lt;p&gt;Вы можете изменить эти горячие клавиши в настройках. Некоторые комбинации клавиш могут быть недоступны из-за ограничений ОС.&lt;/p&gt;
-&lt;p&gt;Wayland не поддерживает глобальные горячие клавиши, но вы можете использовать 
-&lt;a href=&#34;#d-bus-api&#34;&gt;D-Bus&lt;/a&gt; для назначения действий в настройках системы. Для окружений рабочего стола, которые поддерживают 
-&lt;a href=&#34;https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html#extra-actions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;дополнительные действия приложений&lt;/a&gt; (KDE, например) вы увидите уже предопределенные горячие клавиши в системных настройках. Вы также можете использовать их для X11 сессии, но вам нужно отключить регистрацию глобальных горячих клавиш в настройках приложения для избежания конфликтов.&lt;/p&gt;
-&lt;h2 id=&#34;глобальные&#34;&gt;Глобальные&lt;/h2&gt;
+&lt;p&gt;Wayland не поддерживает глобальные горячие клавиши, но вы можете использовать &lt;a href=&#34;#d-bus-api&#34;&gt;D-Bus&lt;/a&gt; для назначения действий в настройках системы. Для окружений рабочего стола, которые поддерживают &lt;a href=&#34;https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html#extra-actions&#34;&gt;дополнительные действия приложений&lt;/a&gt; (KDE, например) вы увидите уже предопределенные горячие клавиши в системных настройках. Вы также можете использовать их для X11 сессии, но вам нужно отключить регистрацию глобальных горячих клавиш в настройках приложения для избежания конфликтов.&lt;/p&gt;
+&lt;h2 id=&#34;heading&#34;&gt;Глобальные&lt;/h2&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -52,7 +50,7 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id=&#34;в-главном-окне&#34;&gt;В главном окне&lt;/h2&gt;
+&lt;h2 id=&#34;--&#34;&gt;В главном окне&lt;/h2&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -87,9 +85,8 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id=&#34;d-bus-api&#34;&gt;D-Bus API&lt;/h2&gt;
-&lt;p&gt;В данный момент доступно только для 
-&lt;a href=&#34;#%d0%b3%d0%bb%d0%be%d0%b1%d0%b0%d0%bb%d1%8c%d0%bd%d1%8b%d0%b5&#34;&gt;глобальных горячих клавиш&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;dbus-api&#34;&gt;D-Bus API&lt;/h2&gt;
+&lt;p&gt;В данный момент доступно только для &lt;a href=&#34;#%D0%B3%D0%BB%D0%BE%D0%B1%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5&#34;&gt;глобальных горячих клавиш&lt;/a&gt;.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;io.crow_translate.CrowTranslate
 └── /io/crow_translate/CrowTranslate/MainWindow
     ├── method void io.crow_translate.CrowTranslate.MainWindow.copyTranslatedSelection()
