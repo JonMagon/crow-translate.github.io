@@ -293,10 +293,6 @@ qdbus io.crow_translate.CrowTranslate /io/crow_translate/CrowTranslate/MainWindo
 &lt;td&gt;Muestra los códigos de los idiomas&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;code&gt;-a, --audio-only&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;Muestra el texto solo para reproducir hablando cuando se utiliza &lt;code&gt;--speak-translation&lt;/code&gt; o &lt;code&gt;--speak-source&lt;/code&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
 &lt;td&gt;&lt;code&gt;-s, --source &amp;lt;code&amp;gt;&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;Especifica el idioma original (de manera predeterminada, el motor de traducción intentará determinar el idioma por su cuenta)&lt;/td&gt;
 &lt;/tr&gt;
@@ -327,6 +323,14 @@ qdbus io.crow_translate.CrowTranslate /io/crow_translate/CrowTranslate/MainWindo
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;-i, --stdin&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;Añade los datos de la entrada estándar (stdin) al texto origen&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;-a, --audio-only&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Muestra el texto solo para reproducir hablando cuando se utiliza &lt;code&gt;--speak-translation&lt;/code&gt; o &lt;code&gt;--speak-source&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;-b, --brief&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Imprimir solo traducciones&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;

@@ -26,7 +26,7 @@
   
   <meta name="description" content="Este programa también tiene interfaz para la consola.
 Utilización: crow [opciones] texto
-   Opción Descripción     -h, --help Muestra la ayuda   -v, --version Muestra la información de la versión   -c, --codes Muestra los códigos de los idiomas   -a, --audio-only Muestra el texto solo para reproducir hablando cuando se utiliza --speak-translation o --speak-source   -s, --source &lt;code&gt; Especifica el idioma original (de manera predeterminada, el motor de traducción intentará determinar el idioma por su cuenta)   -t, --translation &lt;code&gt; Especifica el(los) idioma(s) de traducción separados por &lsquo;&#43;&rsquo; (de manera predeterminada, es utilizado el idioma del sistema)   -l, --locale &lt;code&gt; Especifica el idioma del traductor (de manera predeterminada, es utilizado el idioma del sistema)   -e, --engine &lt;engine&gt; Especifica el motor de traducción del traductor (&lsquo;google&rsquo;, &lsquo;yandex&rsquo; o &lsquo;bing&rsquo;), Google es utilizado de manera predeterminada   -p, --speak-translation Reproduce hablando la traducción   -u, --speak-source Reproduce hablando el texto origen   -f, --file Lee el texto origen desde un archivo.">
+   Opción Descripción     -h, --help Muestra la ayuda   -v, --version Muestra la información de la versión   -c, --codes Muestra los códigos de los idiomas   -s, --source &lt;code&gt; Especifica el idioma original (de manera predeterminada, el motor de traducción intentará determinar el idioma por su cuenta)   -t, --translation &lt;code&gt; Especifica el(los) idioma(s) de traducción separados por &lsquo;&#43;&rsquo; (de manera predeterminada, es utilizado el idioma del sistema)   -l, --locale &lt;code&gt; Especifica el idioma del traductor (de manera predeterminada, es utilizado el idioma del sistema)   -e, --engine &lt;engine&gt; Especifica el motor de traducción del traductor (&lsquo;google&rsquo;, &lsquo;yandex&rsquo; o &lsquo;bing&rsquo;), Google es utilizado de manera predeterminada   -p, --speak-translation Reproduce hablando la traducción   -u, --speak-source Reproduce hablando el texto origen   -f, --file Lee el texto origen desde un archivo.">
 
   
   <link rel="alternate" hreflang="en" href="/commands/">
@@ -232,7 +232,7 @@ Utilización: crow [opciones] texto
   <meta property="og:title" content="Comandos para la línea de comandos | Crow Translate">
   <meta property="og:description" content="Este programa también tiene interfaz para la consola.
 Utilización: crow [opciones] texto
-   Opción Descripción     -h, --help Muestra la ayuda   -v, --version Muestra la información de la versión   -c, --codes Muestra los códigos de los idiomas   -a, --audio-only Muestra el texto solo para reproducir hablando cuando se utiliza --speak-translation o --speak-source   -s, --source &lt;code&gt; Especifica el idioma original (de manera predeterminada, el motor de traducción intentará determinar el idioma por su cuenta)   -t, --translation &lt;code&gt; Especifica el(los) idioma(s) de traducción separados por &lsquo;&#43;&rsquo; (de manera predeterminada, es utilizado el idioma del sistema)   -l, --locale &lt;code&gt; Especifica el idioma del traductor (de manera predeterminada, es utilizado el idioma del sistema)   -e, --engine &lt;engine&gt; Especifica el motor de traducción del traductor (&lsquo;google&rsquo;, &lsquo;yandex&rsquo; o &lsquo;bing&rsquo;), Google es utilizado de manera predeterminada   -p, --speak-translation Reproduce hablando la traducción   -u, --speak-source Reproduce hablando el texto origen   -f, --file Lee el texto origen desde un archivo."><meta property="og:image" content="/img/logo.svg">
+   Opción Descripción     -h, --help Muestra la ayuda   -v, --version Muestra la información de la versión   -c, --codes Muestra los códigos de los idiomas   -s, --source &lt;code&gt; Especifica el idioma original (de manera predeterminada, el motor de traducción intentará determinar el idioma por su cuenta)   -t, --translation &lt;code&gt; Especifica el(los) idioma(s) de traducción separados por &lsquo;&#43;&rsquo; (de manera predeterminada, es utilizado el idioma del sistema)   -l, --locale &lt;code&gt; Especifica el idioma del traductor (de manera predeterminada, es utilizado el idioma del sistema)   -e, --engine &lt;engine&gt; Especifica el motor de traducción del traductor (&lsquo;google&rsquo;, &lsquo;yandex&rsquo; o &lsquo;bing&rsquo;), Google es utilizado de manera predeterminada   -p, --speak-translation Reproduce hablando la traducción   -u, --speak-source Reproduce hablando el texto origen   -f, --file Lee el texto origen desde un archivo."><meta property="og:image" content="/img/logo.svg">
   <meta property="twitter:image" content="/img/logo.svg"><meta property="og:locale" content="es-es">
   
     
@@ -589,10 +589,6 @@ Utilización: crow [opciones] texto
 <td>Muestra los códigos de los idiomas</td>
 </tr>
 <tr>
-<td><code>-a, --audio-only</code></td>
-<td>Muestra el texto solo para reproducir hablando cuando se utiliza <code>--speak-translation</code> o <code>--speak-source</code></td>
-</tr>
-<tr>
 <td><code>-s, --source &lt;code&gt;</code></td>
 <td>Especifica el idioma original (de manera predeterminada, el motor de traducción intentará determinar el idioma por su cuenta)</td>
 </tr>
@@ -623,6 +619,14 @@ Utilización: crow [opciones] texto
 <tr>
 <td><code>-i, --stdin</code></td>
 <td>Añade los datos de la entrada estándar (stdin) al texto origen</td>
+</tr>
+<tr>
+<td><code>-a, --audio-only</code></td>
+<td>Muestra el texto solo para reproducir hablando cuando se utiliza <code>--speak-translation</code> o <code>--speak-source</code></td>
+</tr>
+<tr>
+<td><code>-b, --brief</code></td>
+<td>Imprimir solo traducciones</td>
 </tr>
 </tbody>
 </table>
