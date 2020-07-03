@@ -613,6 +613,10 @@ Wayland does not support global shortcuts registration, but you can use D-Bus to
 <td>Translate</td>
 </tr>
 <tr>
+<td><kbd>Ctrl</kbd> + <kbd>R</kbd></td>
+<td>Swap languages</td>
+</tr>
+<tr>
 <td><kbd>Ctrl</kbd> + <kbd>Q</kbd></td>
 <td>Close window</td>
 </tr>
@@ -640,7 +644,8 @@ Wayland does not support global shortcuts registration, but you can use D-Bus to
     ├── method void io.crow_translate.CrowTranslate.MainWindow.speakSelection()
     ├── method void io.crow_translate.CrowTranslate.MainWindow.speakTranslatedSelection()
     ├── method void io.crow_translate.CrowTranslate.MainWindow.stopSpeaking()
-    └── method void io.crow_translate.CrowTranslate.MainWindow.translateSelection()
+    ├── method void io.crow_translate.CrowTranslate.MainWindow.translateSelection()
+    └── method void io.crow_translate.CrowTranslate.MainWindow.quit()
 </code></pre>
 <p>For example, you can show main window using <code>dbus-send</code>:</p>
 <pre><code class="language-bash">dbus-send --type=method_call --dest=io.crow_translate.CrowTranslate /io/crow_translate/CrowTranslate/MainWindow io.crow_translate.CrowTranslate.MainWindow.open

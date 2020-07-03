@@ -66,6 +66,10 @@
 &lt;td&gt;Traducir&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;R&lt;/kbd&gt;&lt;/td&gt;
+&lt;td&gt;Intercambiar idiomas&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
 &lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Q&lt;/kbd&gt;&lt;/td&gt;
 &lt;td&gt;Cerrar la ventana&lt;/td&gt;
 &lt;/tr&gt;
@@ -93,7 +97,8 @@
     ├── method void io.crow_translate.CrowTranslate.MainWindow.speakSelection()
     ├── method void io.crow_translate.CrowTranslate.MainWindow.speakTranslatedSelection()
     ├── method void io.crow_translate.CrowTranslate.MainWindow.stopSpeaking()
-    └── method void io.crow_translate.CrowTranslate.MainWindow.translateSelection()
+    ├── method void io.crow_translate.CrowTranslate.MainWindow.translateSelection()
+    └── method void io.crow_translate.CrowTranslate.MainWindow.quit()
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Por ejemplo, puedes mostrar la pantalla principal utilizando &lt;code&gt;dbus-send&lt;/code&gt;:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;dbus-send --type=method_call --dest=io.crow_translate.CrowTranslate /io/crow_translate/CrowTranslate/MainWindow io.crow_translate.CrowTranslate.MainWindow.open
