@@ -119,8 +119,9 @@
       
     
   
+  
   &lt;a data-fancybox=&#34;gallery-Linux Plasma&#34; data-caption=&#34;Main window&#34; href=&#34;/img/screenshots/linux-plasma/main.png&#34;&gt;
-    &lt;img data-src=&#34;/img/screenshots/linux-plasma/main.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
+    &lt;img data-src=&#34;/img/screenshots/linux-plasma/main.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
   
@@ -129,9 +130,10 @@
     
       
     
+  
   
   &lt;a data-fancybox=&#34;gallery-Linux Plasma&#34; data-caption=&#34;Pop-up window&#34; href=&#34;/img/screenshots/linux-plasma/popup.png&#34;&gt;
-    &lt;img data-src=&#34;/img/screenshots/linux-plasma/popup.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
+    &lt;img data-src=&#34;/img/screenshots/linux-plasma/popup.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
   
@@ -140,9 +142,10 @@
     
       
     
+  
   
   &lt;a data-fancybox=&#34;gallery-Linux Plasma&#34; data-caption=&#34;Sentence translation&#34; href=&#34;/img/screenshots/linux-plasma/sentence.png&#34;&gt;
-    &lt;img data-src=&#34;/img/screenshots/linux-plasma/sentence.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
+    &lt;img data-src=&#34;/img/screenshots/linux-plasma/sentence.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
   
@@ -152,8 +155,9 @@
       
     
   
+  
   &lt;a data-fancybox=&#34;gallery-Linux Plasma&#34; data-caption=&#34;Settings&#34; href=&#34;/img/screenshots/linux-plasma/settings.png&#34;&gt;
-    &lt;img data-src=&#34;/img/screenshots/linux-plasma/settings.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
+    &lt;img data-src=&#34;/img/screenshots/linux-plasma/settings.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
   
@@ -188,8 +192,9 @@
       
     
   
+  
   &lt;a data-fancybox=&#34;gallery-Windows 10&#34; data-caption=&#34;Main window&#34; href=&#34;/img/screenshots/windows/main.png&#34;&gt;
-    &lt;img data-src=&#34;/img/screenshots/windows/main.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
+    &lt;img data-src=&#34;/img/screenshots/windows/main.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
   
@@ -198,9 +203,10 @@
     
       
     
+  
   
   &lt;a data-fancybox=&#34;gallery-Windows 10&#34; data-caption=&#34;Pop-up window&#34; href=&#34;/img/screenshots/windows/popup.png&#34;&gt;
-    &lt;img data-src=&#34;/img/screenshots/windows/popup.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
+    &lt;img data-src=&#34;/img/screenshots/windows/popup.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
   
@@ -209,9 +215,10 @@
     
       
     
+  
   
   &lt;a data-fancybox=&#34;gallery-Windows 10&#34; data-caption=&#34;Sentence translation&#34; href=&#34;/img/screenshots/windows/sentence.png&#34;&gt;
-    &lt;img data-src=&#34;/img/screenshots/windows/sentence.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
+    &lt;img data-src=&#34;/img/screenshots/windows/sentence.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
   
@@ -221,8 +228,9 @@
       
     
   
+  
   &lt;a data-fancybox=&#34;gallery-Windows 10&#34; data-caption=&#34;Settings&#34; href=&#34;/img/screenshots/windows/settings.png&#34;&gt;
-    &lt;img data-src=&#34;/img/screenshots/windows/settings.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34;&gt;
+    &lt;img data-src=&#34;/img/screenshots/windows/settings.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
   
@@ -237,7 +245,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/shortcuts/</guid>
       <description>&lt;p&gt;You can change them in the settings. Some key sequences may not be available due to OS limitations.&lt;/p&gt;
-&lt;p&gt;Wayland does not support global shortcuts registration, but you can use &lt;a href=&#34;#d-bus-api&#34;&gt;D-Bus&lt;/a&gt; to bind actions in the system settings. For desktop environments that support &lt;a href=&#34;https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html#extra-actions&#34;&gt;additional applications actions&lt;/a&gt; (KDE, for example) you will see them predefined in the system shortcut settings. You can also use them for X11 sessions, but you need to disable global shortcuts registration in the application settings to avoid conflicts.&lt;/p&gt;
+&lt;p&gt;Wayland does not support global shortcuts registration, but you can use 
+&lt;a href=&#34;#d-bus-api&#34;&gt;D-Bus&lt;/a&gt; to bind actions in the system settings. For desktop environments that support 
+&lt;a href=&#34;https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html#extra-actions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;additional applications actions&lt;/a&gt; (KDE, for example) you will see them predefined in the system shortcut settings. You can also use them for X11 sessions, but you need to disable global shortcuts registration in the application settings to avoid conflicts.&lt;/p&gt;
 &lt;h2 id=&#34;global&#34;&gt;Global&lt;/h2&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -248,23 +258,23 @@
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;!-- raw HTML omitted --&gt;Ctrl&lt;!-- raw HTML omitted --&gt; + &lt;!-- raw HTML omitted --&gt;Alt&lt;!-- raw HTML omitted --&gt; + &lt;!-- raw HTML omitted --&gt;E&lt;!-- raw HTML omitted --&gt;&lt;/td&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;E&lt;/kbd&gt;&lt;/td&gt;
 &lt;td&gt;Translate selected text&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;!-- raw HTML omitted --&gt;Ctrl&lt;!-- raw HTML omitted --&gt; + &lt;!-- raw HTML omitted --&gt;Alt&lt;!-- raw HTML omitted --&gt; + &lt;!-- raw HTML omitted --&gt;S&lt;!-- raw HTML omitted --&gt;&lt;/td&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;S&lt;/kbd&gt;&lt;/td&gt;
 &lt;td&gt;Speak selected text&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;!-- raw HTML omitted --&gt;Ctrl&lt;!-- raw HTML omitted --&gt; + &lt;!-- raw HTML omitted --&gt;Alt&lt;!-- raw HTML omitted --&gt; + &lt;!-- raw HTML omitted --&gt;F&lt;!-- raw HTML omitted --&gt;&lt;/td&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;F&lt;/kbd&gt;&lt;/td&gt;
 &lt;td&gt;Speak translation of selected text&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;!-- raw HTML omitted --&gt;Ctrl&lt;!-- raw HTML omitted --&gt; + &lt;!-- raw HTML omitted --&gt;Alt&lt;!-- raw HTML omitted --&gt; + &lt;!-- raw HTML omitted --&gt;G&lt;!-- raw HTML omitted --&gt;&lt;/td&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;G&lt;/kbd&gt;&lt;/td&gt;
 &lt;td&gt;Stop speaking&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;!-- raw HTML omitted --&gt;Ctrl&lt;!-- raw HTML omitted --&gt; + &lt;!-- raw HTML omitted --&gt;Alt&lt;!-- raw HTML omitted --&gt; + &lt;!-- raw HTML omitted --&gt;C&lt;!-- raw HTML omitted --&gt;&lt;/td&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Alt&lt;/kbd&gt; + &lt;kbd&gt;C&lt;/kbd&gt;&lt;/td&gt;
 &lt;td&gt;Show main window&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -279,33 +289,34 @@
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;!-- raw HTML omitted --&gt;Ctrl&lt;!-- raw HTML omitted --&gt; + &lt;!-- raw HTML omitted --&gt;Return&lt;!-- raw HTML omitted --&gt;&lt;/td&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Return&lt;/kbd&gt;&lt;/td&gt;
 &lt;td&gt;Translate&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;!-- raw HTML omitted --&gt;Ctrl&lt;!-- raw HTML omitted --&gt; + &lt;!-- raw HTML omitted --&gt;R&lt;!-- raw HTML omitted --&gt;&lt;/td&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;R&lt;/kbd&gt;&lt;/td&gt;
 &lt;td&gt;Swap languages&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;!-- raw HTML omitted --&gt;Ctrl&lt;!-- raw HTML omitted --&gt; + &lt;!-- raw HTML omitted --&gt;Q&lt;!-- raw HTML omitted --&gt;&lt;/td&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Q&lt;/kbd&gt;&lt;/td&gt;
 &lt;td&gt;Close window&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;!-- raw HTML omitted --&gt;Ctrl&lt;!-- raw HTML omitted --&gt; + &lt;!-- raw HTML omitted --&gt;S&lt;!-- raw HTML omitted --&gt;&lt;/td&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;S&lt;/kbd&gt;&lt;/td&gt;
 &lt;td&gt;Speak source / pause text speaking&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;!-- raw HTML omitted --&gt;Ctrl&lt;!-- raw HTML omitted --&gt; + &lt;!-- raw HTML omitted --&gt;Shift&lt;!-- raw HTML omitted --&gt; + &lt;!-- raw HTML omitted --&gt;S&lt;!-- raw HTML omitted --&gt;&lt;/td&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Shift&lt;/kbd&gt; + &lt;kbd&gt;S&lt;/kbd&gt;&lt;/td&gt;
 &lt;td&gt;Speak translation / pause text speaking&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;!-- raw HTML omitted --&gt;Ctrl&lt;!-- raw HTML omitted --&gt; + &lt;!-- raw HTML omitted --&gt;Shift&lt;!-- raw HTML omitted --&gt; + &lt;!-- raw HTML omitted --&gt;C&lt;!-- raw HTML omitted --&gt;&lt;/td&gt;
+&lt;td&gt;&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Shift&lt;/kbd&gt; + &lt;kbd&gt;C&lt;/kbd&gt;&lt;/td&gt;
 &lt;td&gt;Copy translation to clipboard&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h2 id=&#34;d-bus-api&#34;&gt;D-Bus API&lt;/h2&gt;
-&lt;p&gt;Currently available only for &lt;a href=&#34;#global&#34;&gt;global shortcuts&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Currently available only for 
+&lt;a href=&#34;#global&#34;&gt;global shortcuts&lt;/a&gt;.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;io.crow_translate.CrowTranslate
 └── /io/crow_translate/CrowTranslate/MainWindow
     ├── method void io.crow_translate.CrowTranslate.MainWindow.copyTranslatedSelection()
@@ -317,12 +328,14 @@
     └── method void io.crow_translate.CrowTranslate.MainWindow.quit()
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;For example, you can show main window using &lt;code&gt;dbus-send&lt;/code&gt;:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;dbus-send --type&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;method_call --dest&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;io.crow_translate.CrowTranslate /io/crow_translate/CrowTranslate/MainWindow io.crow_translate.CrowTranslate.MainWindow.open
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Or via &lt;code&gt;qdbus&lt;/code&gt;:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;qdbus io.crow_translate.CrowTranslate /io/crow_translate/CrowTranslate/MainWindow io.crow_translate.CrowTranslate.MainWindow.open
-&lt;span style=&#34;color:#75715e&#34;&gt;# or shorter&lt;/span&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;dbus-send --type=method_call --dest=io.crow_translate.CrowTranslate /io/crow_translate/CrowTranslate/MainWindow io.crow_translate.CrowTranslate.MainWindow.open
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Or via &lt;code&gt;qdbus&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;qdbus io.crow_translate.CrowTranslate /io/crow_translate/CrowTranslate/MainWindow io.crow_translate.CrowTranslate.MainWindow.open
+# or shorter
 qdbus io.crow_translate.CrowTranslate /io/crow_translate/CrowTranslate/MainWindow open
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
   </channel>
